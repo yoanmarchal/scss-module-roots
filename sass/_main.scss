@@ -1,3 +1,31 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+$lato-font-path: '../font';
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #27ae60;
+
+
+$color_elephant_approx: #193441;
+$black: #000000;
+$white_60: rgba(255, 255, 255, 0.6);
+$white: #fff;
+$white_80: rgba(255, 255, 255, 0.8);
+$color_curious_blue_approx: #3498db;
+$color_mine_shaft_approx: #333;
+$color_william_approx: #3e606f;
+$color_niagara_approx: #16a085;
+$color_pickled_bluewood_approx: #2c3e50;
+$color_mountain_meadow_approx: #1abc9c;
+$color_athens_gray_approx: #ecf0f1;
+$black_20: rgba(0,0,0,0.20);
+$color_pewter_approx: #95a5a6;
+
+
+
 @import 'utilities/mixin';
 
 @import 'components/footer-3';
