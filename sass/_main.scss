@@ -1,8 +1,5 @@
-@mixin square($size) {
-  width: $size;
-  height: $size;
-}
+@import 'utilities/mixin';
 
-.carre{
-	 @include square(10px);
-}
+@import 'components/footer-3';
+@import 'components/social';
+

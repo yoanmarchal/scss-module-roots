@@ -1,0 +1,63 @@
+.social {
+	
+	li {
+		a {
+			display: block;
+    		margin: 0 auto;
+    		text-decoration: none;
+			i {
+				text-align: center;
+				display: table-cell;
+				vertical-align: middle;
+				width: 34px;
+				height: 34px;
+				font-size: 18px;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all 200ms ease-out;
+				&:after {
+					content: '';
+					z-index: -1;
+					position: absolute;
+					width: 100%;
+					height: 0;
+					top: 0;
+					left: 0;
+					//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+					transition: all 200ms ease-out;
+				}
+			}
+			&:hover i {
+				color: #f0f0f0;
+				&:after {
+					height: 100%;
+				}
+			}
+		}
+	}
+	a {
+		.fa-facebook:after {
+			background: #3b5998;
+		}
+		.fa-google-plus:after {
+			background: #dd4b39;
+		}
+		.fa-twitter:after {
+			background: #00aced;
+		}
+		.fa-pinterest:after {
+			background: #cb2027;
+		}
+		.fa-behance:after {
+			background: #1769ff;
+		}
+		.fa-dribbble:after {
+			background: #ea4c89;
+		}
+	}
+}
+.social-light li a i {
+	color: $white;
+}
+.social-dark li a i {
+	color: #666666;
+}
