@@ -1,0 +1,17 @@
+{
+  "name": "scss-module-roots",
+  "version": "0.0.1",
+  "authors": [
+    "Yoan marchal <marchalyoan@gmail.com>"
+  ],
+  "description": "add my scss components into scss project",
+  "main": "scss/_main.scss",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

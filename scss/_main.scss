@@ -1,0 +1,8 @@
+@mixin square($size) {
+  width: $size;
+  height: $size;
+}
+
+.carre{
+	 @include square(10);
+}
