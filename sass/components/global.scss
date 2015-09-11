@@ -1,0 +1,78 @@
+
+/* PADDING, MARGIN & ALIGNMENT */
+.pad5 { padding-top:5px; }
+.pad10 { padding-top:10px; }
+.pad15 { padding-top:15px; }
+.pad25 { padding-top:25px; }
+.pad30 { padding-top:30px; }
+.pad45 { padding-top:45px; }
+.pad60 { padding-top:60px; }
+.pad90 { padding-top:90px; }
+
+.min-height-100px { min-height: 100px; }
+.min-height-200px { min-height: 200px; }
+.min-height-300px { min-height: 300px; }
+.min-height-400px { min-height: 400px; }
+.min-height-500px { min-height: 500px; }
+.min-height-600px { min-height: 600px; }
+.min-height-700px { min-height: 700px; }
+.min-height-800px { min-height: 800px; }
+
+.marg-bottom5 { margin-bottom: 5px; }
+.marg-left5 { margin-left: 5px; }
+.marg-right5 { margin-right: 5px; }
+.but_marg { margin-left: 3px; }
+
+.v-center {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+/** TYPOGRAPHY **/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	line-height: 1.1;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
+	color: #e5e5e5;
+}
+
+h1, h2, h3 {
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+
+h4, h5, h6 {
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+
+h1, .h1 { font-size: 44px; }
+h2, .h2 { font-size: 37px; }
+h3, .h3 { font-size: 27px; }
+h4, .h4 { font-size: 23px; }
+h5, .h5 { font-size: 18px; }
+h6, .h6 { font-size: 16px; }
+
+
+.underlined-title {
+	text-align: center;
+	padding-bottom: 30px;
+	h1 {
+		color: $color_pickled_bluewood_approx;
+		margin: 0;
+	}
+	h2 {
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: $color_pewter_approx;
+	}
+	hr {
+		width: 10%;
+		border-width: 2px;
+		border-color: $color_niagara_approx;
+	}
+}
