@@ -31,3 +31,11 @@ $color_pewter_approx: #95a5a6;
 @import 'components/footer-3';
 @import 'components/social';
 
+
+/*
+@include font-face('Lato', '#{$icon-font-path}lato-normal', normal, normal);
+@include font-face('Lato', '#{$icon-font-path}lato-light', 300, normal);
+@include font-face('Lato', '#{$icon-font-path}lato-heavy', 600, normal);
+*/
+
+@include font-face('fontawesome', '#{$icon-font-path}fontawesome-webfont', normal, normal);
