@@ -5,7 +5,7 @@
     "Yoan marchal <marchalyoan@gmail.com>"
   ],
   "description": "add my scss components into scss project",
-  "main": "sass/_main.scss",
+  "main": "sass/main.scss",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -14,5 +14,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "lato": "~0.3.0"
+  }
 }
