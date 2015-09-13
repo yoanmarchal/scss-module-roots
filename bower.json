@@ -28,7 +28,12 @@
       "main": [
         "./dist/isotope.pkgd.min.js"
       ],
-      "dependencies": {}
+      "outlayer": {
+        "main": [
+          "item.js",
+          "outlayer.js"
+        ]
+      }
     }
   }
 }
