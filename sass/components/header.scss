@@ -1,7 +1,7 @@
 //@extend-elements
 //original selectors
 //.gallery-item .gallery-thumb .gallery-zoom, .gallery-item .gallery-thumb .gallery-link
-%extend_1 {
+%galerie__item {
 	width: 45px;
 	height: 45px;
 	text-align: center;
@@ -21,7 +21,7 @@
 
 //original selectors
 //.grid figure figcaption, .grid figure a
-%extend_2 {
+%absolute {
 	position: absolute;
 	top: 0;
 	left: 0;

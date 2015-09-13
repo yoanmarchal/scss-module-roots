@@ -65,7 +65,7 @@
 			transition: all 0.2s ease;
 		}
 		.gallery-zoom {
-			@extend %extend_1;
+			@extend %galerie__item;
 			left: 0;
 			margin-left: -45px;
 			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
@@ -79,7 +79,7 @@
 			}
 		}
 		.gallery-link {
-			@extend %extend_1;
+			@extend %galerie__item;
 			right: 0;
 			margin-right: -45px;
 			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
@@ -181,7 +181,7 @@
 			font-size: 1.25em;
 			//Instead of the line below you could use @include backface-visibility($visibility)
 			backface-visibility: hidden;
-			@extend %extend_2;
+			@extend %absolute;
 		}
 		figcaption::before {
 			pointer-events: none;
@@ -190,7 +190,7 @@
 			pointer-events: none;
 		}
 		a {
-			@extend %extend_2;
+			@extend %absolute;
 			z-index: 1000;
 			text-indent: 200%;
 			white-space: nowrap;
