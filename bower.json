@@ -9,6 +9,7 @@
     "js/main.js",
     "sass/main.scss",
   ],
+  "moduleType": "globals",
   "license": "MIT",
   "ignore": [
     "**/.*",
