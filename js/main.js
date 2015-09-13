@@ -35,5 +35,14 @@ $(function() {
 	on_resize(function() {
 	   $container.isotope('layout');
 	}); // these parenthesis does the trick
+
+	/* -------- Gallery Popup -------- */
+	$(document).ready(function(){
+		$('.gallery-zoom').magnificPopup({ 
+			type: 'image'
+			// other options
+		});
+	});
+	// End Gallery Popup
 	
 });
