@@ -19,6 +19,7 @@
     "tests"
   ],
   "dependencies": {
-    "headroom.js": "~0.7.0"
+    "headroom.js": "~0.7.0",
+    "isotope": "~2.2.2"
   }
 }
