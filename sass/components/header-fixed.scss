@@ -1,0 +1,125 @@
+$color_mountain_mist_approx: #999;
+$color_storm_dust_approx: #666;
+#header-fixed {
+  width: 100%;
+  position: relative;
+  z-index: 999;
+  .brand-img {
+    float: none;
+    margin: 30px auto;
+    text-align: center;
+    max-width: 150px;
+  }
+  .navbar-toggle {
+    margin-right: 0;
+    margin-top: 0;
+    background: none;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+    .icon-bar {
+      background-color: $color_mountain_mist_approx;
+      height: 3px;
+    }
+    &:hover .icon-bar {
+      background-color: $color_curious_blue_approx;
+    }
+  }
+  .navbar-fixed-top .navbar-collapse {
+    max-height: inherit;
+    border-top: none;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: none;
+  }
+  .main-nav .nav {
+    margin-top: 20px;
+    .nav-item {
+      a {
+        font-family: Lato, sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: $color_storm_dust_approx;
+        background: none;
+        &:hover {
+          color: $color_curious_blue_approx;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+      &.active a {
+        color: $color_curious_blue_approx;
+      }
+    }
+    .dropdown-menu {
+      //Instead of the line below you could use @include background-clip($clip)
+      background-clip: padding-box;
+      margin: 0;
+      border: none;
+      text-transform: none;
+      min-width: 180px;
+      background: $color_william_approx;
+      a {
+        padding: 8px 20px;
+        color: $color_storm_dust_approx;
+        opacity: 1;
+        &:hover {
+          background: $color_curious_blue_approx;
+          color: $white;
+        }
+      }
+    }
+    .open > a {
+      background: none;
+      &:hover {
+        background: none;
+      }
+      &:focus {
+        background: none;
+      }
+    }
+  }
+}
+@media only screen and(min-width : 768px) {
+  #header-2 .main-nav .nav .dropdown-menu {
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 4px;
+    //Instead of the line below you could use @include background-clip($clip)
+    background-clip: padding-box;
+    margin: 0;
+    border: none;
+    text-transform: none;
+    min-width: 180px;
+    background: $color_william_approx;
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid $color_william_approx;
+      position: absolute;
+      right: 35px;
+      top: -10px;
+    }
+    a {
+      padding: 8px 20px;
+      color: $white;
+      opacity: 1;
+      &:hover {
+        background: $color_elephant_approx;
+        color: $white;
+      }
+    }
+  }
+}
+@media only screen and(min-width : 992px) {
+}
+@media only screen and(min-width : 1200px) {
+}
