@@ -63,4 +63,19 @@
      });
      // End Gallery Popup
 
+    //header plus hero
+
+    $('.nav-slide-btn').click(function() {
+        $('.pull').slideToggle();
+    });
+
+    document.querySelector("#nav-toggle").addEventListener("click", function() {
+        this.classList.toggle("active");
+    });
+    //end! header plus hero
+
  });
+
+
+
+
