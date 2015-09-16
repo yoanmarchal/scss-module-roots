@@ -29,26 +29,6 @@
 	height: 100%;
 }
 
-.navbar-nav{
-	> li{
-		> a {
-			position: relative;
-			height: 80px;
-			padding: 0 15px;
-			line-height: 71px;
-			&:after{
-				content:'';
-				position: absolute;
-				top: -5px;
-				left: 0;
-				right: -1px;
-				height: 5px;
-				background-color: #000;
-				transition:all 250ms ease-in-out;
-			}
-		}
-	}
-}
 
 .banner{
 	width: 100%;
