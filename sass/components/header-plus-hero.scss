@@ -1,0 +1,134 @@
+//colors
+$color_nile_blue_approx: #233447;
+$white_60: rgba(255, 255, 255, 0.6);
+$white_20: rgba(255, 255, 255, 0.2);
+$white_100: rgba(255, 255, 255, 1);
+$color_tuatara_approx: #353535;
+$color_revolver_approx: #31152b;
+$color_tawny_port_approx: #723147;
+
+//@extend-elements
+//original selectors
+//#header-3 #nav-toggle span, #header-3 #nav-toggle span:before, #header-3 #nav-toggle span:after
+%extend_1 {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: $color_tuatara_approx;
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 500ms ease-in-out;
+}
+
+
+#header-plus-hero {
+  width: 100%;
+  .brand {
+    position: relative;
+  }
+  .brand-img {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    max-width: 150px;
+  }
+  nav {
+    background-color: $color_nile_blue_approx;
+    margin-top: -1px;
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        color: $white_60;
+        display: block;
+        border-bottom: 1px dotted $white_20;
+        transition: all 0.5s ease;
+        padding-left: 0;
+        position: relative;
+        &:last-child {
+          border: none;
+        }
+        a {
+          color: $white_60;
+          display: block;
+          padding: 20px;
+          transition: all 0.5s ease;
+          padding-left: 0;
+          position: relative;
+          &:hover {
+            text-decoration: none;
+            color: $white_100;
+          }
+          &:focus {
+            text-decoration: none;
+            color: $white_100;
+          }
+        }
+      }
+    }
+  }
+  #nav-toggle {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    cursor: pointer;
+    padding: 10px 35px 16px 0;
+    span {
+      @extend %extend_1;
+      &:before {
+        @extend %extend_1;
+        top: -10px;
+      }
+      &:after {
+        @extend %extend_1;
+        bottom: -10px;
+      }
+    }
+    &.active span {
+      background-color: transparent;
+      &:before {
+        top: 0;
+        transform: rotate(45deg);
+      }
+      &:after {
+        top: 0;
+        transform: translateY(-10px) rotate(-45deg);
+        top: 10px;
+      }
+    }
+  }
+  .navicon {
+    position: relative;
+    height: 26px;
+  }
+  .indicator {
+    position: absolute;
+    right: 0 !important;
+  }
+  .pull {
+    display: none;
+  }
+  .hero {
+    background: url(https://farm1.staticflickr.com/394/18837151753_41e23e1959_k_d.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 50px 0 300px;
+    height: auto;
+    h1 {
+      margin-top: 100px;
+      font-weight: 600;
+      color: $color_revolver_approx;
+    }
+    .lead {
+      font-weight: 600;
+      color: $color_tawny_port_approx;
+    }
+  }
+}
+@media(max-width: 767px) {
+}
+@media(min-width: 768px) {
+}
+@media(min-width: 992px) {
+}
