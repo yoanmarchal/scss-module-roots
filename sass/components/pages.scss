@@ -37,8 +37,11 @@
     background-color: #DADADA;
     padding-top: 100px;
     color: #fff;
-    
     background-position: center 31%;
+    min-height: 100vh;
+    @media screen and (min-width: $screen-md-min) {
+    	 min-height: 80vh;
+	}
 	.container {
 		margin-top: 380px;
 		h1 {
