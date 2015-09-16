@@ -27,7 +27,7 @@
     
         //CountDown
         var dateOfBeginning = "Sep 21, 2015", //type your date of the Beginnig
-            dateOfEnd = "Apr 10, 2015"; //type your date of the end
+            dateOfEnd = "Jan 10, 2016"; //type your date of the end
     
         countDown(dateOfBeginning, dateOfEnd); 
     
