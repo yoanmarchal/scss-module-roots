@@ -1,0 +1,45 @@
+//colors
+$white: #ffffff;
+$color_seagull_10_approx: rgba(133, 214, 222, 0.1);
+$color_tree_poppy_approx: #f39c12;
+
+.call-to-action-countdown {
+  h1 {
+    font-size: 60px;
+    color: $white;
+  }
+  h2 {
+    color: $white;
+  }
+  .countDown {
+    margin: 80px auto 40px auto;
+    font-size: 0;
+    .countDown-input {
+      display: none;
+    }
+    .countDown-wrap {
+      width: 185px;
+      margin: 0 15px 20px;
+      display: inline-block;
+      background: $color_seagull_10_approx;
+      border-left: 4px solid $color_tree_poppy_approx;
+      border-right: 4px solid $color_tree_poppy_approx;
+    }
+    .digits {
+      display: block;
+      margin-top: 34px;
+      margin-bottom: -6px;
+      font-family: Lato, Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      font-size: 120px;
+      color: $white;
+    }
+    .digits-label {
+      margin-bottom: 18px;
+      font-family: Lato, Helvetica, Arial, sans-serif;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: $white;
+    }
+  }
+}
