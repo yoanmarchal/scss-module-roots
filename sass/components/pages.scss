@@ -38,12 +38,16 @@
     padding-top: 100px;
     color: #fff;
     background-position: center 31%;
-    min-height: 100vh;
+    height: 100vh;
+    position: relative;
     @media screen and (min-width: $screen-md-min) {
-    	 min-height: 80vh;
+    	 height: 80vh;
 	}
 	.container {
-		margin-top: 380px;
+		position: absolute;
+	    bottom: 10px;
+	    left: 0;
+	    right: 0;
 		h1 {
 			text-transform: uppercase;
 			font-weight: 300;
