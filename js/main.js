@@ -26,7 +26,7 @@
         };
     
         //CountDown
-        var dateOfBeginning = "Jan 21, 2015", //type your date of the Beginnig
+        var dateOfBeginning = "Sep 21, 2015", //type your date of the Beginnig
             dateOfEnd = "Apr 10, 2015"; //type your date of the end
     
         countDown(dateOfBeginning, dateOfEnd); 
@@ -62,7 +62,7 @@
      $(document).ready(function() {
 
          count(".coming-soon");    
-        
+
          $('.gallery-zoom').magnificPopup({
              type: 'image',
              mainClass: 'mfp-with-zoom', // this class is for CSS animation below
