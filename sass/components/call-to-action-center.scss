@@ -1,0 +1,20 @@
+//colors
+$white: #ffffff;
+
+.call-to-action-center {
+	background: url(https://farm1.staticflickr.com/394/18837151753_41e23e1959_k_d.jpg) center top no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 140px 0;
+	h1 {
+		font-size: 60px;
+		color: $white;
+	}
+	h2 {
+		font-weight: 600;
+		color: $white;
+	}
+	a {
+		margin-top: 40px;
+	}
+}
