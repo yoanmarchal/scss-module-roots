@@ -1,0 +1,31 @@
+//colors
+$red: #ff0000;
+$color_pippin_approx: #fbe3e4;
+$color_falu_red_approx: #8a1f11;
+$color_your_pink_approx: #fbc2c4;
+
+.contact-3 {
+  h2 {
+    margin-top: 0;
+  }
+  .map-img {
+    margin-top: 40px;
+  }
+}
+#message {
+  margin-bottom: 20px;
+  padding: 0;
+}
+.error_message {
+  display: block;
+  background: $color_pippin_approx;
+  padding: 10px 0 10px 15px;
+  color: $color_falu_red_approx;
+  border: 2px solid $color_your_pink_approx;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 6px;
+}
+#contact span.required {
+  font-size: 13px;
+  color: $red;
+}
