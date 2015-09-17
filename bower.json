@@ -8,8 +8,7 @@
   "moduleType": "globals",
   "main": [
     "js/main.js",
-    "sass/main.scss",
-    "images/map-pointer.svg"
+    "sass/main.scss"
   ],
   "license": "MIT",
   "ignore": [
