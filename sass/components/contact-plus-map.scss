@@ -1,0 +1,58 @@
+//colors
+$color_mountain_meadow_approx: #1abc9c;
+$color_mine_shaft_approx: #2e2e2e;
+$red: #ff0000;
+$color_pippin_approx: #fbe3e4;
+$color_falu_red_approx: #8a1f11;
+$color_your_pink_approx: #fbc2c4;
+
+.contact-1 {
+  .form-container {
+    margin-top: 60px;
+  }
+  .contact-info {
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+    span {
+      margin-right: 7px;
+      color: $color_mountain_meadow_approx;
+      padding-right: 5px;
+    }
+    li {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 15px;
+      font-weight: 700;
+      color: $color_mine_shaft_approx;
+      a {
+        color: $color_mine_shaft_approx;
+        &:hover {
+          color: $color_mountain_meadow_approx;
+        }
+      }
+    }
+  }
+}
+#map {
+  width: 100%;
+  height: 350px;
+}
+#message {
+  margin-bottom: 20px;
+  padding: 0;
+}
+.error_message {
+  display: block;
+  background: $color_pippin_approx;
+  padding: 10px 0;
+  color: $color_falu_red_approx;
+  border: 2px solid $color_your_pink_approx;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 6px;
+}
+
+#contact span.required {
+  font-size: 13px;
+  color: $red;
+}
