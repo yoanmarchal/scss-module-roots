@@ -32,7 +32,8 @@ function initMap(elem) {
     var marker = new google.maps.Marker({
         icon: {
           path: google.maps.SymbolPath.CIRCLE,
-          scale: 10
+          scale: 10,
+          fillColor: '#c42751'
         },
         map: map,
         position: map.getCenter() 
