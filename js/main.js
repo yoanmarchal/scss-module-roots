@@ -173,17 +173,3 @@ function initMap(elem) {
     //end! header plus hero
 
  });
-
-
-
-
-
-
-
-
-<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
-    
-
-
-    
-    
