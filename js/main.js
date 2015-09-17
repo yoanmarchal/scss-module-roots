@@ -30,7 +30,10 @@ function initMap(elem) {
                     
     var map = new google.maps.Map(document.getElementById('map'),mapOptions);
     var marker = new google.maps.Marker({
-        icon: 'img/map-pin.svg',
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          scale: 10
+        },
         map: map,
         position: map.getCenter() 
     });
