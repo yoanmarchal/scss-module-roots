@@ -92,9 +92,19 @@
         $('.pull').slideToggle();
     });
 
-    document.querySelector("#nav-toggle").addEventListener("click", function() {
-        this.classList.toggle("active");
-    });
+
+     function dotoggle(){
+        var toggleComp = document.querySelector("#nav-toggle");
+        if($(toggleComp).length==0){
+                return 0;
+        };
+        toggleComp.addEventListener("click", function() {
+            this.classList.toggle("active");
+        });
+     }
+
+     dotoggle();
+    
     //end! header plus hero
 
  });
