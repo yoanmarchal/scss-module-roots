@@ -1,0 +1,94 @@
+
+//colors
+$color_pickled_bluewood_approx: #2f4052;
+$white: #fff;
+$color_whisper_approx: #f5f7fa;
+$color_mystic_approx: #e6e9ed;
+$color_loblolly_approx: #bcc7d1;
+
+.pricing-table-2 {
+	.tables-row {
+		margin-top: 40px;
+	}
+	.price-block {
+		max-width: 500px;
+		margin: 0 auto 40px auto;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 4px;
+		header {
+			background: $color_pickled_bluewood_approx;
+			text-align: center;
+			padding: 50px;
+		}
+		h2 {
+			font-size: 20px;
+			font-weight: 400;
+			letter-spacing: .15em;
+			text-transform: uppercase;
+			color: $white;
+		}
+		.btn {
+			margin-bottom: 0;
+		}
+		.price {
+			margin-bottom: 15px;
+			color: $white;
+			* {
+				font-family: Lato, sans-serif;
+				line-height: 100%;
+			}
+			.amount {
+				font-size: 120px;
+				font-weight: 900;
+			}
+			.currency {
+				position: relative;
+				top: 16px;
+				font-size: 24px;
+				vertical-align: top;
+				margin-right: 5px;
+			}
+			.period {
+				font-size: 16px;
+				text-transform: uppercase;
+			}
+		}
+		.features {
+			background: $color_whisper_approx;
+			padding: 25px 35px;
+			border: 1px solid $color_mystic_approx;
+			border-top: none;
+			border-bottom-width: 2px;
+			//Instead of the line below you could use @include border-bottom-left-radius($radius)
+			border-bottom-left-radius: 3px;
+			//Instead of the line below you could use @include border-bottom-right-radius($radius)
+			border-bottom-right-radius: 3px;
+			margin-top: 0 !important;
+			li {
+				padding: 15px 0;
+				border-top: 1px solid $color_loblolly_approx;
+				list-style: none;
+				&:first-child {
+					border: none;
+				}
+				i {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+	.col-4 .price-block {
+		header {
+			padding: 40px;
+		}
+		h2 {
+			font-size: 18px;
+		}
+		.features {
+			padding: 20px 30px;
+		}
+		.price .amount {
+			font-size: 90px;
+		}
+	}
+}
