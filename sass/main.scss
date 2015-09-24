@@ -4,7 +4,6 @@
 @import 'components/header';
 @import 'components/galerie';
 @import 'components/pages';
-@import 'components/footer-3';
 @import 'components/social';
 @import 'components/call-to-action';
 @import 'components/content';
@@ -12,6 +11,7 @@
 @import 'components/price';
 @import 'components/team';
 @import 'components/blog';
+@import 'components/footer';
 /*
 @include font-face('Lato', '#{$icon-font-path}lato-normal', normal, normal);
 @include font-face('Lato', '#{$icon-font-path}lato-light', 300, normal);
