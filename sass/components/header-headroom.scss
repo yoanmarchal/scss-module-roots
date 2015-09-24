@@ -29,6 +29,9 @@
 	height: 100%;
 }
 
+#header-headroom + .content-block:nth-child(2) {
+	padding: 140px 0 60px 0;
+}
 
 .banner{
 	width: 100%;
