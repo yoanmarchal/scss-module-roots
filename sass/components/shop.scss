@@ -1,0 +1,654 @@
+//colors
+$color_wild_sand_approx: #f5f5f5;
+$color_niagara_approx: #16a085;
+$white: #ffffff;
+$color_tundora_approx: #454545;
+$color_suva_gray_approx: #888;
+$color_corn_approx: #f1c40f;
+$color_niagara_60_approx: rgba(22,160,133,0.6);
+$black_10: rgba(0,0,0,0.1);
+$color_mine_shaft_approx: #333;
+$black_20: rgba(0,0,0,0.2);
+$color_celeste_approx: #ccc;
+$color_alto_approx: #dcdcdc;
+$mercury: #e5e5e5;
+$color_storm_dust_approx: #666;
+$color_gallery_approx: #eee;
+$color_green_approx: #00cc00;
+$color_milano_red_approx: #ac1c00;
+.shop{
+	&-info-light{
+		background: $color_wild_sand_approx;
+		h4 {
+			margin-top: 0;
+		}
+		p {
+			margin-bottom: 0;
+		}
+		.fa {
+			font-size: 30px;
+		}
+	}
+	&-info-dark {
+		background: $color_niagara_approx;
+		h4 {
+			color: $white;
+			margin-top: 0;
+		}
+		p {
+			color: $white;
+			margin-bottom: 0;
+		}
+		.fa {
+			font-size: 30px;
+			color: $white;
+		}
+	}
+	&-tab {
+		#tabbed-shop {
+			margin: 40px 0 0;
+		}
+		.product {
+			position: relative;
+			float: left;
+		}
+		.product-image {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+			img {
+				display: block;
+				width: 100%;
+			}
+			> a {
+				display: block;
+				width: 100%;
+				&:nth-of-type(2) {
+					opacity: 0;
+					position: absolute;
+					z-index: -1;
+					top: 0;
+					left: 0;
+				}
+			}
+			.slide a {
+				display: block;
+				width: 100%;
+			}
+			&:hover > a:nth-of-type(2) {
+				opacity: 1;
+				z-index: 2;
+			}
+		}
+		.product-desc {
+			padding: 15px 0;
+			font-size: 14px;
+			h3 {
+				margin: 0 0 10px 0;
+				font-size: 22px;
+			}
+			h4 {
+				font-size: 18px;
+				font-weight: 600;
+				margin-bottom: 20px;
+				text-decoration: none;
+				color: $color_tundora_approx;
+				del {
+					font-weight: 400;
+					font-size: 80%;
+					color: $color_suva_gray_approx;
+				}
+			}
+			.product-rating .fa {
+				font-size: 18px;
+				color: $color_corn_approx;
+			}
+		}
+		.product-overlay {
+			position: absolute;
+			width: 100%;
+			height: 44px;
+			line-height: 44px;
+			top: auto;
+			bottom: -44px;
+			left: 0;
+			z-index: 6;
+			a {
+				display: block;
+				float: left;
+				width: 50%;
+				font-size: 13px;
+				color: $white;
+				background-color: $color_niagara_60_approx;
+				text-align: center;
+				border-right: 1px solid $black_10;
+				&.gallery-zoom {
+					border-right: 0;
+				}
+				i {
+					position: relative;
+					font-size: 18px;
+				}
+				&:hover {
+					background-color: $color_mine_shaft_approx;
+					color: $white;
+					//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					text-shadow: 1px 1px 1px $black_20;
+				}
+			}
+		}
+		.advert {
+			margin: 15px;
+			background: $color_celeste_approx;
+			height: 200px;
+		}
+	}
+	&-simple-list {
+		margin: 30px 0 10px;
+		.product {
+			position: relative;
+			float: left;
+		}
+		.product-image {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+			img {
+				display: block;
+				width: 100%;
+			}
+			> a {
+				display: block;
+				width: 100%;
+				&:nth-of-type(2) {
+					opacity: 0;
+					position: absolute;
+					z-index: -1;
+					top: 0;
+					left: 0;
+				}
+			}
+			.slide a {
+				display: block;
+				width: 100%;
+			}
+			&:hover > a:nth-of-type(2) {
+				opacity: 1;
+				z-index: 2;
+			}
+		}
+		.product-desc {
+			padding: 15px 0;
+			font-size: 14px;
+			h3 {
+				margin: 0 0 10px 0;
+				font-size: 22px;
+			}
+			h4 {
+				font-size: 18px;
+				font-weight: 600;
+				margin-bottom: 20px;
+				text-decoration: none;
+				color: $color_tundora_approx;
+				del {
+					font-weight: 400;
+					font-size: 80%;
+					color: $color_suva_gray_approx;
+				}
+			}
+			.product-rating .fa {
+				font-size: 18px;
+				color: $color_corn_approx;
+			}
+		}
+		.product-overlay {
+			position: absolute;
+			width: 100%;
+			height: 44px;
+			line-height: 44px;
+			top: auto;
+			bottom: -44px;
+			left: 0;
+			z-index: 6;
+			a {
+				display: block;
+				float: left;
+				width: 50%;
+				font-size: 13px;
+				color: $white;
+				background-color: $color_niagara_60_approx;
+				text-align: center;
+				border-right: 1px solid $black_10;
+				&.gallery-zoom {
+					border-right: 0;
+				}
+				i {
+					position: relative;
+					font-size: 18px;
+				}
+				&:hover {
+					background-color: $color_mine_shaft_approx;
+					color: $white;
+					//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					text-shadow: 1px 1px 1px $black_20;
+				}
+			}
+		}
+		.advert {
+			margin: 15px;
+			background: $color_celeste_approx;
+			height: 200px;
+		}
+	}
+	&-plus-sidebar {
+		.product {
+			position: relative;
+			float: left;
+			margin-bottom: 40px;
+		}
+		.product-image {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+			img {
+				display: block;
+				width: 100%;
+			}
+			> a {
+				display: block;
+				width: 100%;
+				&:nth-of-type(2) {
+					opacity: 0;
+					position: absolute;
+					z-index: -1;
+					top: 0;
+					left: 0;
+				}
+			}
+			.slide a {
+				display: block;
+				width: 100%;
+			}
+			&:hover > a:nth-of-type(2) {
+				opacity: 1;
+				z-index: 2;
+			}
+		}
+		.product-desc {
+			padding: 15px 0;
+			font-size: 14px;
+			h3 {
+				margin: 0 0 10px 0;
+				font-size: 22px;
+			}
+			h4 {
+				font-size: 18px;
+				font-weight: 600;
+				margin-bottom: 20px;
+				text-decoration: none;
+				color: $color_tundora_approx;
+				del {
+					font-weight: 400;
+					font-size: 80%;
+					color: $color_suva_gray_approx;
+				}
+			}
+			.product-rating .fa {
+				font-size: 18px;
+				color: $color_corn_approx;
+			}
+		}
+		.product-overlay {
+			position: absolute;
+			width: 100%;
+			height: 44px;
+			line-height: 44px;
+			top: auto;
+			bottom: -44px;
+			left: 0;
+			z-index: 6;
+			a {
+				display: block;
+				float: left;
+				width: 50%;
+				font-size: 13px;
+				color: $white;
+				background-color: $color_niagara_60_approx;
+				text-align: center;
+				border-right: 1px solid $black_10;
+				&.gallery-zoom {
+					border-right: 0;
+				}
+				i {
+					position: relative;
+					font-size: 18px;
+				}
+				&:hover {
+					background-color: $color_mine_shaft_approx;
+					color: $white;
+					//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					text-shadow: 1px 1px 1px $black_20;
+				}
+			}
+		}
+		.advert {
+			margin: 15px;
+			background: $color_celeste_approx;
+			height: 200px;
+		}
+		.sidebar {
+			.widget {
+				margin-top: 40px;
+				padding-bottom: 20px;
+				border-bottom: 1px solid $color_alto_approx;
+				&:nth-of-type(1) {
+					margin-top: 0;
+				}
+				&:nth-last-child(1) {
+					border-bottom: none;
+				}
+				h4 {
+					margin-top: 0;
+					margin-bottom: 20px;
+				}
+			}
+			.nav-pills > li {
+				float: left;
+				> a {
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 4px;
+					font-weight: 600;
+				}
+				+ li {
+					margin-left: 2px;
+				}
+				&.active > a {
+					color: $white;
+					background-color: $color_niagara_approx;
+					&:hover {
+						color: $white;
+						background-color: $color_niagara_approx;
+					}
+					&:focus {
+						color: $white;
+						background-color: $color_niagara_approx;
+					}
+				}
+			}
+			.nav-stacked > li {
+				float: none;
+				+ li {
+					margin-top: 2px;
+					margin-left: 0;
+				}
+			}
+		}
+		.sml-item {
+			clear: left;
+			margin-top: 20px;
+			padding-top: 20px;
+			border-top: 1px dashed $mercury;
+			.entry-image {
+				float: left;
+				margin: 0 15px 0 0;
+				text-align: center;
+				width: 48px;
+				height: 48px;
+				a {
+					width: 48px;
+					height: 48px;
+					i {
+						font-size: 28px;
+						line-height: 48px;
+						color: $color_storm_dust_approx;
+						background-color: $color_gallery_approx;
+					}
+				}
+				img {
+					width: 48px;
+					height: 48px;
+				}
+				i {
+					width: 48px;
+					height: 48px;
+				}
+			}
+			h4 {
+				margin: 0 0 10px 0;
+				font-size: 18px;
+				color: $color_green_approx;
+			}
+			h5 {
+				float: left;
+				font-size: 16px;
+				font-weight: 600;
+				margin-top: 0;
+				margin-bottom: 20px;
+				text-decoration: none;
+				color: $color_tundora_approx;
+			}
+			.product-rating {
+				float: right;
+				.fa {
+					font-size: 14px;
+					color: $color_corn_approx;
+				}
+			}
+		}
+	}
+	&-single {
+		.product-image {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+			img {
+				display: block;
+				width: 100%;
+			}
+			> a {
+				display: block;
+				width: 100%;
+				&:nth-of-type(2) {
+					opacity: 0;
+					position: absolute;
+					z-index: -1;
+					top: 0;
+					left: 0;
+				}
+			}
+			.slide a {
+				display: block;
+				width: 100%;
+			}
+			&:hover > a:nth-of-type(2) {
+				opacity: 1;
+				z-index: 2;
+			}
+		}
+		.product-desc {
+			h1 {
+				margin-top: 0;
+				font-size: 32px;
+				font-weight: 400;
+			}
+			h4 {
+				font-size: 18px;
+				font-weight: 600;
+				margin-bottom: 20px;
+				text-decoration: none;
+				color: $color_tundora_approx;
+				del {
+					font-weight: 400;
+					font-size: 80%;
+					color: $color_suva_gray_approx;
+				}
+			}
+			.product-rating {
+				margin-bottom: 20px;
+				span {
+					margin-right: 10px;
+				}
+				.fa {
+					font-size: 18px;
+					color: $color_corn_approx;
+				}
+			}
+			.input-group {
+				margin-right: 10px;
+				.form-control {
+					width: 50px;
+				}
+			}
+		}
+		.review {
+			.product-rating {
+				clear: left;
+				.fa {
+					font-size: 18px;
+					color: $color_corn_approx;
+				}
+			}
+			h4 {
+				float: left;
+			}
+			h5 {
+				float: right;
+				margin-top: 15px;
+				color: $color_celeste_approx;
+			}
+		}
+		.more-info-tabs {
+			margin: 50px 0;
+		}
+		.ribbon {
+			position: absolute;
+			top: -4px;
+			right: 11px;
+			width: 82px;
+			height: 82px;
+			overflow: hidden;
+			z-index: 10;
+		}
+		.sidebar {
+			.widget {
+				margin-top: 40px;
+				padding-bottom: 20px;
+				border-bottom: 1px solid $color_alto_approx;
+				&:nth-of-type(1) {
+					margin-top: 0;
+				}
+				&:nth-last-child(1) {
+					border-bottom: none;
+				}
+				h4 {
+					margin-top: 0;
+					margin-bottom: 20px;
+				}
+			}
+			.nav-pills > li {
+				float: left;
+				> a {
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 4px;
+					font-weight: 600;
+				}
+				+ li {
+					margin-left: 2px;
+				}
+				&.active > a {
+					color: $white;
+					background-color: $color_niagara_approx;
+					&:hover {
+						color: $white;
+						background-color: $color_niagara_approx;
+					}
+					&:focus {
+						color: $white;
+						background-color: $color_niagara_approx;
+					}
+				}
+			}
+			.nav-stacked > li {
+				float: none;
+				+ li {
+					margin-top: 2px;
+					margin-left: 0;
+				}
+			}
+		}
+		.sml-item {
+			clear: left;
+			margin-top: 20px;
+			padding-top: 20px;
+			border-top: 1px dashed $mercury;
+			.entry-image {
+				float: left;
+				margin: 0 15px 0 0;
+				text-align: center;
+				width: 48px;
+				height: 48px;
+				a {
+					width: 48px;
+					height: 48px;
+					i {
+						font-size: 28px;
+						line-height: 48px;
+						color: $color_storm_dust_approx;
+						background-color: $color_gallery_approx;
+					}
+				}
+				img {
+					width: 48px;
+					height: 48px;
+				}
+				i {
+					width: 48px;
+					height: 48px;
+				}
+			}
+			h4 {
+				margin: 0 0 10px 0;
+				font-size: 18px;
+				color: $color_green_approx;
+			}
+			h5 {
+				float: left;
+				font-size: 16px;
+				font-weight: 600;
+				margin-top: 0;
+				margin-bottom: 20px;
+				text-decoration: none;
+				color: $color_tundora_approx;
+			}
+			.product-rating {
+				float: right;
+				.fa {
+					font-size: 14px;
+					color: $color_corn_approx;
+				}
+			}
+		}
+	}
+	&-cart {
+		.cart-table {
+			td {
+				vertical-align: middle;
+			}
+			.input-group .form-control {
+				width: 50px;
+			}
+		}
+		.btn {
+			margin: 0;
+		}
+		.big-total {
+			font-size: 20px;
+			font-weight: 600;
+			color: $color_niagara_approx;
+		}
+		.remove .fa {
+			font-size: 20px;
+			color: $color_milano_red_approx;
+		}
+	}
+}
