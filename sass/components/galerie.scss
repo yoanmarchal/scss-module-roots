@@ -139,14 +139,14 @@ $white_60:		lighten($white);
 .i {
     transition-duration: 0.8s;
     transition-property: height, width;
-    .isotope-it
+    .isotope-it {
         transition-duration: 0.8s;
         transition-property: transform, opacity;
         &.no-transition {
             transition-duration: 0s;
         }
     }
-    &.no-transiti
+    &.no-transition {
         transition-duration: 0s;
         .isotope-item {
             transition-duration: 0s;
