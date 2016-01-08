@@ -85,7 +85,7 @@ $white_60:		lighten($white, 40%);
                 outline: none;
             }
         }
-        .gallery-link_{
+        .gallery-link{
             @extend %galerie__item;
             right: 0;
             margin-right: -45px;
