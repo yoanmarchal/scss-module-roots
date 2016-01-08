@@ -1,6 +1,6 @@
 $text_color:	#222;
 $link_color:	#2c3e50;
-$background_color: #ffffff; 
+$background_color: #fff; 
 $link_hover:	lighten($link_color, 10%);
 $link_focus:	darken($link_color, 10%);;
 $link_active:	lighten($link_color, 15%);
@@ -81,14 +81,14 @@ $white_60:		lighten($white, 40%);
                 background-color: $hover_gallery;
                 color: $white;
             }
-            &:focus {                outline: none;
+            &:focus {
+                outline: none;
             }
         }
         .gallery-link_{
             @extend %galerie__item;
             right: 0;
             margin-right: -45px;
-
             transition: all 0.2s ease;
             &:hover {
                 background-color: $hover_gallery;
@@ -137,10 +137,10 @@ $white_60:		lighten($white, 40%);
     }
 }
 
-.i {
+.isotope{
     transition-duration: 0.8s;
     transition-property: height, width;
-    .isotope-it {
+    .isotope-item {
         transition-duration: 0.8s;
         transition-property: transform, opacity;
         &.no-transition {
