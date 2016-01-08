@@ -7,7 +7,7 @@ $link_active:	lighten($link_color, 15%);
 $hover_gallery:	lighten($background_color, 10%);
 $white:			#fff;
 $gray:			#333;
-$white_60:		lighten($white);
+$white_60:		lighten($white, 40%);
 .filter {
     list-style: none;
     padding: 0;
