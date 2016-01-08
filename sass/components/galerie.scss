@@ -92,7 +92,7 @@ $white_60:		lighten($white, 40%);
             transition: all 0.2s ease;
             &:hover {
                 background-color: $hover_gallery;
-                color: $white;
+                color: $gray;
             }
             &:focus {
                 outline: none;
