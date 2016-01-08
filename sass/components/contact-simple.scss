@@ -22,7 +22,6 @@ $color_your_pink_approx: #fbc2c4;
   padding: 10px 0 10px 15px;
   color: $color_falu_red_approx;
   border: 2px solid $color_your_pink_approx;
-  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
   border-radius: 6px;
 }
 #contact span.required {

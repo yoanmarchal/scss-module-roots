@@ -1,272 +1,262 @@
+$text_color:	#222;
+$link_color:	#2c3e50;
+$link_hover:	lighten($link_color, 10%);
+$link_focus:	darken($link_color, 10%);;
+$link_active:	lighten($link_color, 15%);
+$hover_gallery:	lighten($background_color, 10%);
+$white:			#fff;
+$gray:			#333;
+$white_60:		lighten($white);
 .filter {
-	list-style: none;
-	padding: 0;
-	margin: 0 0 60px 0;
-	text-align: center;
-	li {
-		display: inline-block;
-		margin: 0;
-		&:before {
-			display: inline-block;
-			content: "/";
-			padding: 0 25px 0 19px;
-			color: $black_20;
-		}
-		a {
-			text-transform: uppercase;
-			font-weight: 700;
-			font-size: 14px;
-			color: $color_pickled_bluewood_approx;
-			&:hover {
-				color: $color_mountain_meadow_approx;
-				text-decoration: none;
-			}
-			&:focus {
-				color: $color_mountain_meadow_approx;
-				text-decoration: none;
-			}
-			&.active {
-				color: $color_mountain_meadow_approx;
-				text-decoration: none;
-			}
-		}
-		&:first-child:before {
-			display: none;
-		}
-	}
+    list-style: none;
+    padding: 0;
+    margin: 0 0 60px 0;
+    text-align: center;
+    li {
+        display: inline-block;
+        margin: 0;
+        &:before {
+            display: inline-block;
+            content: "/";
+            padding: 0 25px 0 19px;
+            color: $text_color;
+        }
+        a {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 14px;
+            color: $link_color;
+            &:hover {
+                color: $link_hover;
+                text-decoration: none;
+            }
+            &:focus {
+                color: $link_focus;
+                text-decoration: none;
+            }
+            &.active {
+                color: $link_active;
+                text-decoration: none;
+            }
+        }
+        &:first-child:before {
+            display: none;
+        }
+    }
 }
+
 .gallery-item-wrapper {
-	padding-bottom: 25px;
+    padding-bottom: 25px;
 }
+
 .gallery-item {
-	overflow: hidden;
-	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-	transition: all 0.2s ease;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 3px;
-	.gallery-thumb {
-		position: relative;
-		overflow: hidden;
-		img {
-			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-			transition: all 0.2s ease;
-		}
-		.image-overlay {
-			background-color: $color_pickled_bluewood_approx;
-			width: 100%;
-			height: 100%;
-			display: block;
-			position: absolute;
-			top: 0;
-			left: 0;
-			opacity: 0;
-			filter: alpha(opacity=0);
-			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-			transition: all 0.2s ease;
-		}
-		.gallery-zoom {
-			@extend %galerie__item;
-			left: 0;
-			margin-left: -45px;
-			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-			transition: all 0.2s ease;
-			&:hover {
-				background-color: $color_mountain_meadow_approx;
-				color: $white;
-			}
-			&:focus {
-				outline: none;
-			}
-		}
-		.gallery-link {
-			@extend %galerie__item;
-			right: 0;
-			margin-right: -45px;
-			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-			transition: all 0.2s ease;
-			&:hover {
-				background-color: $color_mountain_meadow_approx;
-				color: $white;
-			}
-			&:focus {
-				outline: none;
-			}
-		}
-	}
-	.gallery-details {
-		text-align: center;
-		padding: 20px 0;
-		background-color: $white;
-		border: 2px solid $gray;
-		border-top: 0;
-		overflow: hidden;
-		h5 {
-			margin: 0;
-			font-size: 1em;
-			font-weight: 700;
-			position: relative;
-		}
-		p {
-			font-size: .9em;
-		}
-	}
-	&:hover .gallery-thumb {
-		img {
-			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-			transform: scale(1.1);
-		}
-		.image-overlay {
-			opacity: 0.50;
-			filter: alpha(opacity=50);
-		}
-		.gallery-zoom {
-			display: block;
-			left: 50%;
-			margin-left: -48px;
-		}
-		.gallery-link {
-			display: block;
-			right: 50%;
-			margin-right: -48px;
-		}
-	}
+    overflow: hidden;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+    .gallery-thumb {
+        position: relative;
+        overflow: hidden;
+        img {
+            transition: all 0.2s ease;
+        }
+        .image-overlay {
+            background-color: $background_color;
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            transition: all 0.2s ease;
+        }
+        .gallery-zoom {
+            @extend %galerie__item;
+            left: 0;
+            margin-left: -45px;
+            transition: all 0.2s ease;
+            &:hover {
+                background-color: $hover_gallery;
+                color: $white;
+            }
+            &:focus {                outline: none;
+            }
+        }
+        .gallery-link_{
+            @extend %galerie__item;
+            right: 0;
+            margin-right: -45px;
+
+            transition: all 0.2s ease;
+            &:hover {
+                background-color: $hover_gallery;
+                color: $white;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .gallery-details {
+        text-align: center;
+        padding: 20px 0;
+        background-color: $white;
+        border: 2px solid $gray;
+        border-top: 0;
+        overflow: hidden;
+        h5 {
+            margin: 0;
+            font-size: 1em;
+            font-weight: 700;
+            position: relative;
+        }
+        p {
+            font-size: .9em;
+        }
+    }
+    &:hover .gallery-thumb {
+        img {
+            transform: scale(1.1);
+        }
+        .image-overlay {
+            opacity: 0.50;
+            filter: alpha(opacity=50);
+        }
+        .gallery-zoom {
+            display: block;
+            left: 50%;
+            margin-left: -48px;
+        }
+        .gallery-link_{
+            display: block;
+            right: 50%;
+            margin-right: -48px;
+        }
+    }
 }
-.isotope {
-	//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-	transition-duration: 0.8s;
-	//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-	transition-property: height, width;
-	.isotope-item {
-		//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-		transition-duration: 0.8s;
-		//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
-		transition-property: transform, opacity;
-		&.no-transition {
-			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-			transition-duration: 0s;
-		}
-	}
-	&.no-transition {
-		//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-		transition-duration: 0s;
-		.isotope-item {
-			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-			transition-duration: 0s;
-		}
-	}
+
+.i
+    transition-duration: 0.8s;
+    transition-property: height, width;
+    .isotope-it
+        transition-duration: 0.8s;
+        transition-property: transform, opacity;
+        &.no-transition {
+            transition-duration: 0s;
+        }
+    }
+    &.no-transiti
+        transition-duration: 0s;
+        .isotope-item {
+            transition-duration: 0s;
+        }
+    }
 }
+
 .grid {
-	overflow: hidden;
-	text-align: center;
-	margin: 10px 0;
-	figure {
-		position: relative;
-		z-index: 1;
-		display: inline-block;
-		overflow: hidden;
-		height: 300px;
-		background: $color_pickled_bluewood_approx;
-		text-align: center;
-		cursor: pointer;
-		img {
-			position: relative;
-			display: block;
-			min-height: 100%;
-			opacity: 0.8;
-		}
-		figcaption {
-			padding: 2em;
-			color: $white;
-			text-transform: uppercase;
-			font-size: 1.25em;
-			//Instead of the line below you could use @include backface-visibility($visibility)
-			backface-visibility: hidden;
-			@extend %absolute;
-		}
-		figcaption::before {
-			pointer-events: none;
-		}
-		figcaption::after {
-			pointer-events: none;
-		}
-		a {
-			@extend %absolute;
-			z-index: 1000;
-			text-indent: 200%;
-			white-space: nowrap;
-			font-size: 0;
-			opacity: 0;
-		}
-		h2 {
-			word-spacing: -0.15em;
-			font-weight: 300;
-			margin: 0;
-		}
-		p {
-			margin: 0;
-			letter-spacing: 1px;
-			font-size: 68.5%;
-		}
-	}
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 0;
+    figure {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        overflow: hidden;
+        height: 300px;
+        background: $link_color;
+        text-align: center;
+        cursor: pointer;
+        img {
+            position: relative;
+            display: block;
+            min-height: 100%;
+            opacity: 0.8;
+        }
+        figcaption {
+            padding: 2em;
+            color: $white;
+            text-transform: uppercase;
+            font-size: 1.25em;
+            backface-visibility: hidden;
+            @extend %absolute;
+        }
+        figcaption::before {
+            pointer-events: none;
+        }
+        figcaption::after {
+            pointer-events: none;
+        }
+        a {
+            @extend %absolute;
+            z-index: 1000;
+            text-indent: 200%;
+            white-space: nowrap;
+            font-size: 0;
+            opacity: 0;
+        }
+        h2 {
+            word-spacing: -0.15em;
+            font-weight: 300;
+            margin: 0;
+        }
+        p {
+            margin: 0;
+            letter-spacing: 1px;
+            font-size: 68.5%;
+        }
+    }
 }
+
 #isotope-gallery-container .col-md-3 {
-	margin-right: -1px;
+    margin-right: -1px;
 }
+
 .flush .gallery-item {
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 0;
+    border-radius: 0;
 }
+
 figure.effect-lily {
-	img {
-		width: calc(100% + 50px);
-		opacity: 0.5;
-		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-		transition: opacity 0.35s, transform 0.35s;
-		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-		transform: translate3d(-40px,0,0);
-	}
-	figcaption {
-		top: auto;
-		bottom: 0;
-		height: 50%;
-		text-align: left;
-	}
-	h2 {
-		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-		transform: translate3d(0,40px,0);
-		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-		transition: transform 0.35s;
-	}
-	p {
-		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-		transform: translate3d(0,40px,0);
-		color: $white_60;
-		opacity: 0;
-		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-		transition: opacity 0.2s, transform 0.35s;
-	}
-	&:hover {
-		img {
-			opacity: 1;
-			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-			transform: translate3d(0,0,0);
-		}
-		p {
-			opacity: 1;
-			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-			transform: translate3d(0,0,0);
-			//Instead of the line below you could use @include transition-delay($delay-1, $delay-2, $delay-3, $delay-4, $delay-5, $delay-6, $delay-7, $delay-8, $delay-9, $delay-10)
-			transition-delay: 0.05s;
-			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
-			transition-duration: 0.35s;
-		}
-		h2 {
-			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-			transform: translate3d(0,0,0);
-		}
-	}
+    img {
+        width: calc(100% + 50px);
+        opacity: 0.5;
+        transition: opacity 0.35s, transform 0.35s;
+        transform: translate3d(-40px, 0, 0);
+    }
+    figcaption {
+        top: auto;
+        bottom: 0;
+        height: 50%;
+        text-align: left;
+    }
+    h2 {
+        transform: translate3d(0, 40px, 0);
+        transition: transform 0.35s;
+    }
+    p {
+        transform: translate3d(0, 40px, 0);
+        color: $white_60;
+        opacity: 0;
+        transition: opacity 0.2s, transform 0.35s;
+    }
+    &:hover {
+        img {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+        p {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+            transition-delay: 0.05s;
+            transition-duration: 0.35s;
+        }
+        h2 {
+            transform: translate3d(0, 0, 0);
+        }
+    }
 }
-.gallery-zoom{
-	    margin: 0 auto;
+
+.gallery-zoom {
+    margin: 0 auto;
     right: 0;
 }

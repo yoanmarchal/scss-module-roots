@@ -32,7 +32,6 @@ $color_storm_dust_approx: #666;
   .navbar-fixed-top .navbar-collapse {
     max-height: inherit;
     border-top: none;
-    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
     box-shadow: none;
   }
   .main-nav .nav {
@@ -57,7 +56,6 @@ $color_storm_dust_approx: #666;
       }
     }
     .dropdown-menu {
-      //Instead of the line below you could use @include background-clip($clip)
       background-clip: padding-box;
       margin: 0;
       border: none;
@@ -87,9 +85,7 @@ $color_storm_dust_approx: #666;
 }
 @media only screen and(min-width : 768px) {
   #header-2 .main-nav .nav .dropdown-menu {
-    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-    border-radius: 4px;
-    //Instead of the line below you could use @include background-clip($clip)
+    border-radius: 4px
     background-clip: padding-box;
     margin: 0;
     border: none;
