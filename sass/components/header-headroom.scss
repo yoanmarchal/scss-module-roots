@@ -1,24 +1,3 @@
-//@extend-elements
-//original selectors
-//.gallery-item .gallery-thumb .gallery-zoom, .gallery-item .gallery-thumb .gallery-link
-%galerie__item {
-	width: 45px;
-	height: 45px;
-	text-align: center;
-	background-color: $color_pickled_bluewood_approx;
-	display: none;
-	line-height: 1;
-	position: absolute;
-	top: 50%;
-	margin-top: -22px;
-	padding-top: 14px;
-	font-size: 18px;
-	color: $white;
-	display: block;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 2px;
-}
-
 //original selectors
 //.grid figure figcaption, .grid figure a
 %absolute {

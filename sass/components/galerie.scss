@@ -1,13 +1,35 @@
-$text_color:	#222;
-$link_color:	#2c3e50;
-$background_color: #fff; 
-$link_hover:	lighten($link_color, 10%);
-$link_focus:	darken($link_color, 10%);;
-$link_active:	lighten($link_color, 15%);
-$hover_gallery:	lighten($background_color, 10%);
-$white:			#fff;
-$gray:			#333;
-$white_60:		lighten($white, 40%);
+$text_color: #222;
+$link_color: #2c3e50;
+$background_color: #fff;
+$link_hover: lighten($link_color, 10%);
+$link_focus: darken($link_color, 10%);
+$link_active: lighten($link_color, 15%);
+$hover_gallery: lighten($background_color, 10%);
+$white: #fff;
+$gray: #333;
+$white_60: lighten($white, 40%);
+$radius: 2px;
+$vertical-radius: $radius;
+//@extend-elements
+//original selectors
+//.gallery-item .gallery-thumb .gallery-zoom, .gallery-item .gallery-thumb .gallery-link
+%galerie__item {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: $color_pickled_bluewood_approx;
+    display: none;
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding-top: 14px;
+    font-size: 18px;
+    color: $white;
+    display: block;
+    @include border-radius($radius, $vertical-radius);
+}
+
 .filter {
     list-style: none;
     padding: 0;
@@ -86,7 +108,7 @@ $white_60:		lighten($white, 40%);
                 outline: none;
             }
         }
-        .gallery-link{
+        .gallery-link {
             @extend %galerie__item;
             right: 0;
             margin-right: -45px;
@@ -129,7 +151,7 @@ $white_60:		lighten($white, 40%);
             left: 50%;
             margin-left: -48px;
         }
-        .gallery-link{
+        .gallery-link {
             display: block;
             right: 50%;
             margin-right: -48px;
@@ -137,7 +159,7 @@ $white_60:		lighten($white, 40%);
     }
 }
 
-.isotope{
+.isotope {
     transition-duration: 0.8s;
     transition-property: height, width;
     .isotope-item {
@@ -217,7 +239,7 @@ $white_60:		lighten($white, 40%);
     border-radius: 0;
 }
 
-figure{
+figure {
     &.effect-lily {
         img {
             width: calc(100% + 50px);
