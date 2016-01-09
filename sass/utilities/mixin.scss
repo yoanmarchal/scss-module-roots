@@ -9,7 +9,15 @@
 	 @include square(10px);
 }
 
-//							Exemple
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+//	Exemple
 /*
 @include font-face('Lato', '#{$icon-font-path}lato-normal', normal, normal);
 @include font-face('Lato', '#{$icon-font-path}lato-light', 300, normal);
