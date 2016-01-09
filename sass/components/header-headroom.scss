@@ -63,7 +63,7 @@
 				}
 			}
 			.dropdown-menu {
-				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				@include border-radius(4px);
 				border-radius: 4px;
 				//Instead of the line below you could use @include background-clip($clip)
 				background-clip: padding-box;
