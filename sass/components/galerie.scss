@@ -9,7 +9,6 @@ $white: #fff;
 $gray: #333;
 $white_60: lighten($white, 40%);
 $radius: 2px;
-$vertical-radius: $radius;
 //@extend-elements
 //original selectors
 //.gallery-item .gallery-thumb .gallery-zoom, .gallery-item .gallery-thumb .gallery-link
@@ -27,7 +26,7 @@ $vertical-radius: $radius;
     font-size: 18px;
     color: $white;
     display: block;
-    @include border-radius($radius, $vertical-radius);
+    @include border-radius($radius);
 }
 
 .filter {
