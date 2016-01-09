@@ -217,7 +217,8 @@ $white_60:		lighten($white, 40%);
     border-radius: 0;
 }
 
-figure.effect-lily {
+figure{
+    &.effect-lily {
     img {
         width: calc(100% + 50px);
         opacity: 0.5;
