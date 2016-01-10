@@ -6,10 +6,10 @@ $color_tree_poppy_approx: #f39c12;
 .call-to-action-countdown {
   h1 {
     font-size: 60px;
-    color: $white;
+    color: inherit;
   }
   h2 {
-    color: $white;
+    color: inherit;
   }
   .countDown {
     margin: 80px auto 40px auto;
@@ -32,14 +32,14 @@ $color_tree_poppy_approx: #f39c12;
       font-family: Lato, Helvetica, Arial, sans-serif;
       font-weight: 300;
       font-size: 5vw;
-      color: $white;
+      color: inherit;
     }
     .digits-label {
       margin-bottom: 18px;
       font-family: Lato, Helvetica, Arial, sans-serif;
       font-size: 24px;
       text-transform: uppercase;
-      color: $white;
+      color: inherit;
     }
   }
 }
