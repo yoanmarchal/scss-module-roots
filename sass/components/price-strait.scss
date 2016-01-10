@@ -11,10 +11,8 @@ $color_loblolly_approx: #bcc7d1;
 		margin-top: 40px;
 	}
 	.price-block {
-		max-width: 500px;
 		margin: 0 auto 40px auto;
-		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-		border-radius: 4px;
+		@include border-radius(4px);
 		header {
 			background: $color_pickled_bluewood_approx;
 			text-align: center;
@@ -59,9 +57,7 @@ $color_loblolly_approx: #bcc7d1;
 			border: 1px solid $color_mystic_approx;
 			border-top: none;
 			border-bottom-width: 2px;
-			//Instead of the line below you could use @include border-bottom-left-radius($radius)
 			border-bottom-left-radius: 3px;
-			//Instead of the line below you could use @include border-bottom-right-radius($radius)
 			border-bottom-right-radius: 3px;
 			margin-top: 0 !important;
 			li {
