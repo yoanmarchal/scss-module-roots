@@ -39,7 +39,7 @@ $color_nile_blue_approx: #233447;
 		margin: 0 0 26px;
 		padding: 0;
 		li {
-			border-top: 1px solid $color_submarine_approx;
+			border-top: 1px solid inherit;
 			line-height: 19px;
 			padding: 6px 0;
 		}
@@ -159,7 +159,7 @@ $color_nile_blue_approx: #233447;
 	}
 	input[type=text] {
 		background-color: $white_10;
-		border: solid 1px inherit;
+		border: solid 1px;
 		padding: 20px;
 		width: 30%;
 		color: inherit;
