@@ -19,15 +19,8 @@ $color_tawny_port_approx: #723147;
 $color_revolver_approx: #31152b;
 $color_pewter_approx: #91aa9d;
 $color_william_approx: #3e606f;
-//urls
-$url_0: url(../images/typewriter-bg.jpg);
-$url_1: url(../images/600x800.gif);
-$url_2: url(../images/gold-iphone.png);
-$url_3: url(../images/palm-trees.jpg);
-$url_4: url(../images/camera-girl.jpg);
-$url_5: url(../images/seagulls.jpg);
+
 .content-1-1 {
-    background: $url_0 center top no-repeat;
     background-size: cover;
     .container {
         margin-top: 380px;
@@ -74,7 +67,7 @@ $url_5: url(../images/seagulls.jpg);
         padding: 0;
         top: 0;
         .background-image-holder {
-            background: $black $url_1 no-repeat center center;
+            background: $black no-repeat center center;
             background-size: cover;
             height: 100%;
         }
@@ -277,7 +270,6 @@ $url_5: url(../images/seagulls.jpg);
         padding: 0;
         top: 0;
         .background-image-holder {
-            background: $url_2 no-repeat bottom center;
             height: 100%;
         }
     }
@@ -376,7 +368,6 @@ $url_5: url(../images/seagulls.jpg);
 }
 
 .content-3-1 {
-    background-image: $url_3;
     background-size: cover !important;
     min-height: 500px;
     .overlay {
@@ -401,7 +392,6 @@ $url_5: url(../images/seagulls.jpg);
 }
 
 .content-3-2 {
-    background-image: $url_4;
     background-size: cover !important;
     min-height: 500px;
     .overlay {
@@ -426,7 +416,6 @@ $url_5: url(../images/seagulls.jpg);
 }
 
 .content-3-3 {
-    background-image: $url_5;
     background-size: cover !important;
     min-height: 500px;
     .overlay {
