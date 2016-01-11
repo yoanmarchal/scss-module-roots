@@ -6,7 +6,7 @@ $color_curious_blue_approx: #3498db;
 $color_niagara_approx: #16a085;
 
 .content-1-1 {
-	background: url(http://lorempixel.com/1920/1080/sports/) center top no-repeat;
+
 	background-size: cover;
 	.container {
 		margin-top: 380px;
@@ -52,7 +52,6 @@ $color_niagara_approx: #16a085;
 		padding: 0;
 		top: 0;
 		.background-image-holder {
-			background: $color_celeste_approx url(http://lorempixel.com/1920/1080/sports/) no-repeat center center;
 			background-size: cover;
 			height: 100%;
 		}
