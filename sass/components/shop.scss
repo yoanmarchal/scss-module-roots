@@ -16,6 +16,17 @@ $color_storm_dust_approx: #666;
 $color_gallery_approx: #eee;
 $color_green_approx: #00cc00;
 $color_milano_red_approx: #ac1c00;
+/* 
+list of modules
+------------------
+shop-info-light
+shop-info-dark
+shop-info-tab
+shop-simple-list
+shop-plus-sidebar
+shop-single
+shop-cart
+*/
 .shop {
     &-info-light {
         background: $color_wild_sand_approx;

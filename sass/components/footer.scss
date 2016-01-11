@@ -165,15 +165,15 @@ $color_nile_blue_approx: #233447;
 		color: inherit;
 	}
 	input[type=submit] {
-		background: $color_puerto_rico_50_approx;
-		border: solid 1px $color_puerto_rico_50_approx;
+		background: rgba(0, 0, 0, 0.2);
+		border: solid 1px;
 		padding: 20px;
 		color: inherit;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		&:hover {
-			background: $color_puerto_rico_approx;
-			border: solid 1px $color_puerto_rico_approx;
+			background: rgba(0, 0, 0, 0.3);
+			border: solid 1px ;
 			color: inherit;
 		}
 	}
@@ -184,7 +184,6 @@ $color_nile_blue_approx: #233447;
 .copyright-bar {
 	height: 70px;
 	padding-top: 20px;
-	background-color: $color_nile_blue_approx;
 	position: relative;
 	bottom: 0;
 	p {
@@ -196,7 +195,6 @@ $color_nile_blue_approx: #233447;
 .copyright-bar-2 {
 	height: 80px;
 	padding-top: 28px;
-	background-color: $color_nile_blue_approx;
 	position: relative;
 	bottom: 0;
 	p {
