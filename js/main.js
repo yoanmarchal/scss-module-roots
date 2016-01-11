@@ -63,8 +63,9 @@ function initMap(elem) {
         };
     
         //CountDown
+        
         var dateOfBeginning = "Sep 21, 2015", //type your date of the Beginnig
-            dateOfEnd = "Jan 10, 2016"; //type your date of the end
+            dateOfEnd = "Jan 10, 2018"; //type your date of the end
     
         countDown(dateOfBeginning, dateOfEnd); 
     
