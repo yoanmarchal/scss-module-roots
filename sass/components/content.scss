@@ -67,7 +67,7 @@ $color_william_approx: #3e606f;
         padding: 0;
         top: 0;
         .background-image-holder {
-            background: $black no-repeat center center;
+            background: inherit no-repeat center center;
             background-size: cover;
             height: 100%;
         }
@@ -151,7 +151,6 @@ $color_william_approx: #3e606f;
         img {
             max-width: 140px;
             opacity: 0.3;
-            //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
             transition: all .3s ease;
             &:hover {
                 opacity: 1;
@@ -178,7 +177,6 @@ $color_william_approx: #3e606f;
     }
     img {
         max-width: 140px;
-        //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
         transition: all .3s ease;
         opacity: 0.4;
         &:hover {
@@ -202,34 +200,31 @@ $color_william_approx: #3e606f;
         margin-bottom: 30px;
     }
     h2 {
-        color: $white;
+        color: inherit;
     }
 }
 
 .content-2-2 {
     h3 {
         font-weight: 300;
-        color: $white;
+        color: inherit;
     }
     p {
-        color: $white;
+        color: inherit;
     }
     .icon-outline {
         height: 150px;
         width: 150px;
         max-width: 100%;
         border: 4px solid $white_60;
-        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
         border-radius: 50%;
         display: block;
         text-align: center;
         vertical-align: middle;
         position: relative;
         margin: 0 auto 50px;
-        //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
         transition: box-shadow 0.2s;
         &:hover {
-            //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
             box-shadow: 0 0 0 14px $white_40;
             color: $white;
         }
@@ -244,10 +239,8 @@ $color_william_approx: #3e606f;
 .content-2-4 {
     i {
         clear: both;
-        color: $color_mountain_meadow_approx;
     }
     h1 {
-        color: $white;
     }
 }
 
@@ -257,7 +250,6 @@ $color_william_approx: #3e606f;
     }
     h2 {
         line-height: 1.4em;
-        color: $white;
     }
 }
 
@@ -280,21 +272,21 @@ $color_william_approx: #3e606f;
     h1 {
         font-weight: 600;
         font-size: 56px;
-        color: $white;
+        
     }
     h3 {
         margin-top: 0;
         font-weight: 600;
-        color: $white;
+        
     }
     .lead {
-        color: $white;
+        
     }
     p {
-        color: $white;
+        
     }
     span {
-        color: $white;
+        
     }
 }
 
