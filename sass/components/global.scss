@@ -284,3 +284,8 @@ button:hover {
 .background-image-holder{
 	height: 100%;
 }
+/* fix button */
+.input-group-btn > .btn {
+    position: relative;
+    margin: 0;
+}
