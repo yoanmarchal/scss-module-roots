@@ -241,10 +241,9 @@ $radius: 2px;
 figure {
     &.effect-lily {
         img {
-            width: calc(100% + 50px);
             opacity: 0.5;
             transition: opacity 0.35s, transform 0.35s;
-            transform: translate3d(-40px, 0, 0);
+            transform:scale(1.5) translate3d(-40px, 0, 0);
         }
         figcaption {
             top: auto;
