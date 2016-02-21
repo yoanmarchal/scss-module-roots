@@ -536,20 +536,16 @@ $color_william_approx: #3e606f;
 }
 
 .content-2-3 h2 {
-    color: $white;
     margin: 0;
 }
 
 .content-2-5-light h2 {
-    color: $color_mine_shaft_approx;
+
 }
 
 .content-2-5-dark h2 {
-    color: $white;
     a {
-        color: $color_corn_approx;
         &:hover {
-            color: $white;
         }
     }
 }

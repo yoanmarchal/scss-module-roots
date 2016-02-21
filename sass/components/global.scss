@@ -70,14 +70,12 @@ h6, .h6 { font-size: 16px; }
 	text-align: center;
 	padding-bottom: 30px;
 	h1 {
-		color: $color_pickled_bluewood_approx;
 		margin: 0;
 	}
 	h2 {
 		font-size: 20px;
 		text-transform: uppercase;
 		font-weight: 700;
-		color: $color_pewter_approx;
 	}
 	hr {
 		width: 10%;
@@ -210,7 +208,7 @@ p .btn {
 
 /* Outline Buttons */
 .btn-outline {
-	color: #FFF;
+	color: inherit;
     padding: 12px 20px;
 	margin: 15px 0;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -222,13 +220,11 @@ p .btn {
     border: none;
     text-transform: uppercase;
     border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
 }
 
 .btn-outline:hover {
 	text-decoration: none;
-	color: #ffffff;
+	color: inherit;
 }
 
 .btn-outline-sm {
@@ -244,33 +240,32 @@ p .btn {
 .btn-outline-xl {
 	padding: 18px 30px;
 	font-size: 24px;
-	
 }
 
 .btn-outline.outline-light,
 .icon.outline-light {
-	color: #ffffff;
+	color: inherit;
 	background: none;
-	border: 2px solid #ffffff;
+	border: 2px solid ;
 }
 
 .btn-outline.outline-light:hover,
 .icon.outline-light:hover {
-	color: #2c3e50;
-	background: #ffffff;
+	color: inherit;
+	background: inherit;
 }
 
 .btn-outline.outline-dark,
 .icon.outline-dark {
-	color: #2c3e50;
+	color: inherit;
 	background: none;
-	border: 2px solid #2c3e50;
+	border: 2px solid ;
 }
 
 .btn-outline.outline-dark:hover,
 .icon.outline-dark:hover {
-	color: #ffffff;
-	background: #2c3e50;
+	color: inherit;
+	background: inherit;
 }
 
 button:hover {
