@@ -24,11 +24,8 @@ $color_your_pink_approx: #fbc2c4;
       margin: 0 10px;
       font-size: 15px;
       font-weight: 700;
-      color: $color_mine_shaft_approx;
       a {
-        color: $color_mine_shaft_approx;
         &:hover {
-          color: $color_mountain_meadow_approx;
         }
       }
     }
@@ -48,7 +45,6 @@ $color_your_pink_approx: #fbc2c4;
   padding: 10px 0;
   color: $color_falu_red_approx;
   border: 2px solid $color_your_pink_approx;
-  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
   border-radius: 6px;
 }
 

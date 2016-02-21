@@ -7,8 +7,7 @@ $color_athens_gray_approx: #ecf0f1;
 	margin: 0 auto 20px auto;
 	overflow: hidden;
 	border-top: 0;
-	border: 1px solid $color_wild_sand_approx;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border: 1px solid ;
 	border-radius: 4px;
 	.member-name {
 		margin-top: 20px;
@@ -33,7 +32,6 @@ $color_athens_gray_approx: #ecf0f1;
 		padding-top: 10px;
 		> li a {
 			border-color: $color_athens_gray_approx;
-			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 3px;
 		}
 	}
@@ -57,13 +55,11 @@ $color_tree_poppy_approx: #f39c12;
 			max-width: 500px;
 			margin: 0 auto;
 			overflow: hidden;
-			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 			transition: all 0.2s ease;
 			.team-thumb {
 				position: relative;
 				overflow: hidden;
 				img {
-					//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 					transition: all 0.2s ease;
 				}
 				.image-overlay {
@@ -76,7 +72,6 @@ $color_tree_poppy_approx: #f39c12;
 					left: 0;
 					opacity: 0;
 					filter: alpha(opacity=0);
-					//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 					transition: all 0.2s ease;
 				}
 				.team-link {
@@ -97,7 +92,6 @@ $color_tree_poppy_approx: #f39c12;
 			}
 			&:hover .team-thumb {
 				img {
-					//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
 					transform: scale(1.1);
 				}
 				.image-overlay {
@@ -112,7 +106,6 @@ $color_tree_poppy_approx: #f39c12;
 			top: 0;
 			left: 45%;
 			margin-top: -50px;
-			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 			transition: all 0.2s ease;
 		}
 		&:hover .team-thumb .team-link {
@@ -126,7 +119,6 @@ $color_tree_poppy_approx: #f39c12;
 			top: 0;
 			left: 45%;
 			margin-top: -50px;
-			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 			transition: all 0.2s ease;
 		}
 		&:hover .team-thumb .team-link {
