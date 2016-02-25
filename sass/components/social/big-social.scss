@@ -1,0 +1,61 @@
+//colors
+$white: #ffffff;
+$color_submarine_approx: #bdc3c7;
+$color_deep_cerulean_approx: #016bb6;
+$color_robins_egg_blue_approx: #08c1e2;
+$color_valencia_approx: #d94b34;
+$color_athens_gray_approx: #ecf0f1;
+$white_10: rgba(255, 255, 255, 0.1);
+$color_puerto_rico_50_approx: rgba(61, 201, 179, 0.5);
+$color_puerto_rico_approx: rgba(61, 201, 179, 1);
+$color_nile_blue_approx: #233447;
+.big-social {
+	margin-top: 20px;
+	.social-item {
+		text-align: center;
+		a {
+			display: block;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 4px;
+			padding: 18px;
+			color: inherit;
+			font-size: 22px;
+			text-decoration: none;
+			h4 {
+				color: inherit;
+				visibility: hidden;
+				margin-bottom: 0;
+			}
+			&:hover h4 {
+				visibility: visible;
+			}
+			&:focus h4 {
+				visibility: visible;
+			}
+		}
+		&.facebook a {
+			&:hover {
+				background-color: $color_deep_cerulean_approx;
+			}
+			&:focus {
+				background-color: $color_deep_cerulean_approx;
+			}
+		}
+		&.twitter a {
+			&:hover {
+				background-color: $color_robins_egg_blue_approx;
+			}
+			&:focus {
+				background-color: $color_robins_egg_blue_approx;
+			}
+		}
+		&.google a {
+			&:hover {
+				background-color: $color_valencia_approx;
+			}
+			&:focus {
+				background-color: $color_valencia_approx;
+			}
+		}
+	}
+}

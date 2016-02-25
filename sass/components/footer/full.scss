@@ -1,0 +1,35 @@
+.footer-full {
+	padding-top: 60px;
+	padding-bottom: 20px;
+	h3 {
+		color: inherit;
+	}
+	h4 {
+		color: inherit;
+		margin-bottom: 20px;
+	}
+	.lead {
+		color: inherit;
+	}
+	li {
+		color: inherit;
+		&:first-child {
+			border-top: none;
+			padding-top: 1px;
+		}
+	}
+	.brand-img {
+		width: 200px;
+		margin-bottom: 30px;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0 0 26px;
+		padding: 0;
+		li {
+			border-top: 1px solid inherit;
+			line-height: 19px;
+			padding: 6px 0;
+		}
+	}
+}
