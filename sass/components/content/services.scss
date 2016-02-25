@@ -1,0 +1,25 @@
+.content-services {
+    text-align: center;
+    p {
+        padding: 0 20px;
+    }
+    .services-wrapper {
+        margin: 20px 0 0;
+        .icon {
+            height: 175px;
+            width: 175px;
+            max-width: 100%;
+            border-radius: 50%;
+            display: block;
+            text-align: center;
+            vertical-align: middle;
+            position: relative;
+            margin: 0 auto 50px;
+            span {
+                line-height: 175px;
+                color: $white;
+                font-size: 55px;
+            }
+        }
+    }
+}

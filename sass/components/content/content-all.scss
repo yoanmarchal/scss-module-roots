@@ -29,32 +29,6 @@ $color_curious_blue_approx: #3498db;
 $color_niagara_approx: #16a085;
 
 
-.content-1-3 {
-    text-align: center;
-    p {
-        padding: 0 20px;
-    }
-    .services-wrapper {
-        margin: 20px 0 0;
-        .icon {
-            height: 175px;
-            width: 175px;
-            max-width: 100%;
-            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-            border-radius: 50%;
-            display: block;
-            text-align: center;
-            vertical-align: middle;
-            position: relative;
-            margin: 0 auto 50px;
-            span {
-                line-height: 175px;
-                color: $white;
-                font-size: 55px;
-            }
-        }
-    }
-}
 
 
 
@@ -281,13 +255,6 @@ $color_niagara_approx: #16a085;
     }
 }
 
-.content-2-4 {
-    i {
-        clear: both;
-    }
-    h1 {
-    }
-}
 
 
 
@@ -435,9 +402,7 @@ $color_niagara_approx: #16a085;
     h2 {}
 }
 
-.content-2-3 h2 {
-    margin: 0;
-}
+
 
 .content-2-5-light h2 {
 
