@@ -1,0 +1,35 @@
+.client-show {
+    h2 {
+        margin-bottom: 40px !important;
+    }
+    .client-row {
+        overflow: hidden;
+        text-align: center;
+        line-height: 0;
+        .col-md-3 {
+            display: inline-block;
+            min-height: 80px;
+            line-height: 80px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+        img {
+            max-width: 140px;
+            opacity: 0.3;
+            transition: all .3s ease;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        .row-wrapper {
+            display: inline-block;
+            width: 80%;
+        }
+        &:last-child .row-wrapper {
+            border-bottom: none;
+        }
+    }
+    .row-wrapper .col-md-3:last-child {
+        border-right: none;
+    }
+}
