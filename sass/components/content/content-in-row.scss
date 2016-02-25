@@ -1,0 +1,15 @@
+.content-in-row {
+    text-align: center;
+    .col-md-2 {
+        height: 80px;
+        line-height: 80px;
+    }
+    img {
+        max-width: 140px;
+        transition: all .3s ease;
+        opacity: 0.4;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

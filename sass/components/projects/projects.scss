@@ -1,0 +1,71 @@
+.content-projects {
+    min-height: 260px;
+    position: relative;
+    .project {
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        padding: 0;
+        img {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .background-image-holder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover !important;
+            z-index: 0;
+            background-position: 50% 50% !important;
+        }
+        .hover-state {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            background-color: $color_pickled_bluewood_60_approx;
+            text-align: center;
+            //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+            transition: all .5s ease;
+            opacity: 0;
+            padding: 0 25px;
+            h3 {
+                margin-top: 40px;
+                margin-bottom: 8px;
+            }
+            p {
+
+            }
+            .align-vertical {
+                //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+                transition: all .5s ease;
+                opacity: 0;
+            }
+        }
+        &:hover {
+            .hover-state {
+                opacity: 1;
+            }
+            .align-vertical {
+                //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+                transform: translate3d(0, 0, 0);
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media only screen and(min-width: 768px) {
+    .content-projects {
+        min-height: 520px;
+    }
+}
+@media only screen and(min-width: 992px) {
+    .content-2-9 {
+        min-height: 260px;
+    }
+}

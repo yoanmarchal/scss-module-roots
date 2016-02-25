@@ -1,0 +1,24 @@
+.content-img-full-left {
+    padding: 0;
+    position: relative;
+    .image-container {
+        position: absolute;
+        height: 100%;
+        padding: 0;
+        top: 0;
+        .background-image-holder {
+            background-size: cover;
+            height: 100%;
+        }
+    }
+    .content {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    h1 {
+        margin-bottom: 32px;
+    }
+    p.lead {
+        margin-bottom: 20px;
+    }
+}

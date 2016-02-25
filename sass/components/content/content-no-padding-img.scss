@@ -1,0 +1,36 @@
+.content-no-padding-img{
+    padding: 0;
+    position: relative;
+    .image-container {
+        position: absolute;
+        height: 100%;
+        padding: 0;
+        top: 0;
+        .background-image-holder {
+            height: 100%;
+        }
+    }
+    .content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    h1 {
+        font-weight: 600;
+        font-size: 56px;
+        
+    }
+    h3 {
+        margin-top: 0;
+        font-weight: 600;
+        
+    }
+    .lead {
+        
+    }
+    p {
+        
+    }
+    span {
+        
+    }
+}

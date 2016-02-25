@@ -55,33 +55,8 @@ $color_niagara_approx: #16a085;
         }
     }
 }
-.content-1-4 {
-    padding: 0;
-    position: relative;
-    .image-container {
-        position: absolute;
-        height: 100%;
-        padding: 0;
-        top: 0;
-        .background-image-holder {
-            background-size: cover;
-            height: 100%;
-        }
-    }
-    .content {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-    h1 {
-        margin-bottom: 32px;
-    }
-    p.lead {
-        margin-bottom: 20px;
-    }
-}
-.content-1-5 h1 {
-    color: inherit;
-}
+
+
 
 .content-1-7 {
     text-align: center;
@@ -196,9 +171,7 @@ $color_niagara_approx: #16a085;
             border-right: 1px solid $black_20;
         }
     }
-    .content-2-9 {
-        min-height: 260px;
-    }
+
     .content-3-1 {
         min-height: 400px;
     }
@@ -355,72 +328,6 @@ $color_niagara_approx: #16a085;
     }
 }
 
-.content-2-9 {
-    min-height: 260px;
-    position: relative;
-    .project {
-        height: 260px;
-        overflow: hidden;
-        position: relative;
-        padding: 0;
-        img {
-            width: 100%;
-            position: absolute;
-            left: 0;
-            top: 0;
-        }
-        .background-image-holder {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-size: cover !important;
-            z-index: 0;
-            background-position: 50% 50% !important;
-        }
-        .hover-state {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            background-color: $color_pickled_bluewood_60_approx;
-            text-align: center;
-            //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-            transition: all .5s ease;
-            opacity: 0;
-            padding: 0 25px;
-            h3 {
-                margin-top: 40px;
-                margin-bottom: 8px;
-            }
-            p {
-
-            }
-            .align-vertical {
-                //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-                transition: all .5s ease;
-                opacity: 0;
-            }
-        }
-        &:hover {
-            .hover-state {
-                opacity: 1;
-            }
-            .align-vertical {
-                //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-                transform: translate3d(0, 0, 0);
-                opacity: 1;
-            }
-        }
-    }
-}
-
-@media only screen and(min-width: 768px) {
-    .content-2-9 {
-        min-height: 520px;
-    }
-}
 
 
 
@@ -543,28 +450,7 @@ $color_niagara_approx: #16a085;
     }
 }
 
-.content-3-7 .underlined-title {
-    padding-bottom: 0;
-}
 
-.content-3-8 .underlined-title {
-    padding-bottom: 0;
-    text-align: left;
-    hr {
-        float: left;
-    }
-    h2 {
-        clear: left;
-    }
-}
 
-.content-3-9 .underlined-title {
-    padding-bottom: 0;
-    text-align: right;
-    hr {
-        float: right;
-    }
-    h2 {
-        clear: right;
-    }
-}
+
+
