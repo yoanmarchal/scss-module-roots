@@ -20,16 +20,7 @@ $color_revolver_approx: #31152b;
 $color_pewter_approx: #91aa9d;
 $color_william_approx: #3e606f;
 
-.content-1-1 {
-    background-size: cover;
-    .container {
-        margin-top: 380px;
-    }
-    h1 {
-        text-transform: uppercase;
-        font-weight: 300;
-    }
-}
+
 
 .content-1-3 {
     text-align: center;
@@ -195,14 +186,6 @@ $color_william_approx: #3e606f;
     }
 }
 
-.content-2-1 {
-    .btn-outline {
-        margin-bottom: 30px;
-    }
-    h2 {
-        color: inherit;
-    }
-}
 
 .content-2-2 {
     h3 {
@@ -566,7 +549,3 @@ $color_william_approx: #3e606f;
         clear: right;
     }
 }
-
-@import 'content-1';
-@import 'content-center';
-@import 'content-33';
