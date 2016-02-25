@@ -1,0 +1,99 @@
+.shop {
+    &-simple-list {
+        margin: 15px 0px;
+        .product {
+            position: relative;
+            float: left;
+        }
+        .product-image {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            img {
+                display: block;
+                width: 100%;
+            }
+            > a {
+                display: block;
+                width: 100%;
+                &:nth-of-type(2) {
+                    opacity: 0;
+                    position: absolute;
+                    z-index: -1;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            .slide a {
+                display: block;
+                width: 100%;
+            }
+            &:hover > a:nth-of-type(2) {
+                opacity: 1;
+                z-index: 2;
+            }
+        }
+        .product-desc {
+            padding: 15px 0;
+            font-size: 14px;
+            h3 {
+                margin: 0 0 10px 0;
+                font-size: 22px;
+            }
+            h4 {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                text-decoration: none;
+                color: $color_tundora_approx;
+                del {
+                    font-weight: 400;
+                    font-size: 80%;
+                    color: $color_suva_gray_approx;
+                }
+            }
+            .product-rating .fa {
+                font-size: 18px;
+                color: $color_corn_approx;
+            }
+        }
+        .product-overlay {
+            position: absolute;
+            width: 100%;
+            height: 44px;
+            line-height: 44px;
+            top: auto;
+            bottom: -44px;
+            left: 0;
+            z-index: 6;
+            a {
+                display: block;
+                float: left;
+                width: 50%;
+                font-size: 13px;
+                color: $white;
+                background-color: $color_niagara_60_approx;
+                text-align: center;
+                border-right: 1px solid $black_10;
+                &.gallery-zoom {
+                    border-right: 0;
+                }
+                i {
+                    position: relative;
+                    font-size: 18px;
+                }
+                &:hover {
+                    background-color: $color_mine_shaft_approx;
+                    color: $white;
+                    //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+                    text-shadow: 1px 1px 1px $black_20;
+                }
+            }
+        }
+        .advert {
+            margin: 15px;
+            background: $color_celeste_approx;
+            height: 200px;
+        }
+    }
+}

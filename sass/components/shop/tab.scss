@@ -1,0 +1,113 @@
+$color_tundora_approx: #454545;
+$color_niagara_60_approx: rgba(22, 160, 133, 0.6);
+$color_suva_gray_approx: #888;
+$color_corn_approx: #f1c40f;
+$black_10: rgba(0, 0, 0, 0.1);
+$color_mine_shaft_approx: #333;
+$black_20: rgba(0, 0, 0, 0.2);
+.shop {
+    &-tab {
+        #tabbed-shop {
+            margin: 40px 0 0;
+        }
+        .product {
+            position: relative;
+            float: left;
+        }
+        .product-image {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            img {
+                display: block;
+                width: 100%;
+            }
+            > a {
+                display: block;
+                width: 100%;
+                &:nth-of-type(2) {
+                    opacity: 0;
+                    position: absolute;
+                    z-index: -1;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            .slide a {
+                display: block;
+                width: 100%;
+            }
+            &:hover > a:nth-of-type(2) {
+                opacity: 1;
+                z-index: 2;
+            }
+        }
+        .product-desc {
+            padding: 15px 0;
+            font-size: 14px;
+            h3 {
+                margin: 0 0 10px 0;
+                font-size: 22px;
+            }
+            h4 {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                text-decoration: none;
+                color: $color_tundora_approx;
+                del {
+                    font-weight: 400;
+                    font-size: 80%;
+                    color: $color_suva_gray_approx;
+                }
+            }
+            .product-rating .fa {
+                font-size: 18px;
+                color: $color_corn_approx;
+            }
+        }
+        .product-overlay {
+            position: absolute;
+            width: 100%;
+            height: 44px;
+            line-height: 44px;
+            top: auto;
+            bottom: -44px;
+            left: 0;
+            z-index: 6;
+            a {
+                display: block;
+                float: left;
+                width: 50%;
+                font-size: 13px;
+                color: $white;
+                background-color: $color_niagara_60_approx;
+                text-align: center;
+                border-right: 1px solid $black_10;
+                &.gallery-zoom {
+                    border-right: 0;
+                }
+                i {
+                    position: relative;
+                    font-size: 18px;
+                }
+                &:hover {
+                    background-color: $color_mine_shaft_approx;
+                    color: $white;
+                    text-shadow: 1px 1px 1px $black_20;
+                }
+            }
+        }
+        .advert {
+            margin: 15px;
+            background: $color_celeste_approx;
+            height: 200px;
+        }
+    }
+}
+body:not(.device-touch):not(.device-xs):not(.device-xxs) {
+    .shop-tab .product-image > a {
+        //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+        transition: all .5s ease;
+    }
+}
