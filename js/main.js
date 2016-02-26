@@ -1,5 +1,44 @@
- "use strict";function countDown(e,t){function a(){var e=Math.floor(g/1e3%60),t=Math.floor(g/6e4%60),n=Math.floor(g/36e5%24),r=Math.floor(g/864e5);i.val(e).trigger("change"),f.val(t).trigger("change"),p.val(n).trigger("change"),s.val(r).trigger("change"),h.text(e),l.text(t),c.text(n),u.text(r),g-=1e3,setTimeout(a,1e3)}var n=e||"Jul 4, 2013",r=t||"Aug 15, 2013",o=Date.parse(r)-Date.parse(n),g=Date.parse(r)-new Date,i=$(".second"),f=$(".minute"),p=$(".hour"),s=$(".day").attr("data-max",Math.floor(o/864e5)),h=i.parent().find("span"),l=f.parent().find("span"),c=p.parent().find("span"),u=s.parent().find("span");a()}
+ "use strict";
+function countDown(e, t) {
+  function update() {
+    var e = Math.floor(g / 1e3 % 60),
+      t = Math.floor(g / 6e4 % 60),
+      n = Math.floor(g / 36e5 % 24),
+      r = Math.floor(g / 864e5);
+    
 
+      i.text(e),
+      f.text(t),
+      p.text(n),
+      s.text(r);
+      g -= 1e3, setTimeout(update, 1e3)
+      
+  }
+  var n = e || "Jul 4, 2013",
+    r = t || "Aug 15, 2016",
+    o = Date.parse(r) - Date.parse(n),
+    g = Date.parse(r) - new Date,
+    i = $(".second"),
+    f = $(".minute"),
+    p = $(".hour"),
+    s = $(".day").attr("data-max", Math.floor(o / 864e5));
+  update()
+}
+
+function count(elem) {
+  var el = document.querySelector(elem)
+  if (el.length == 0) {
+    return 0;
+  };
+
+  //CountDown
+  var dateOfBeginning = "feb 1, 2015", //type your date of the Beginnig
+    dateOfEnd = "apr 1, 2016"; //type your date of the end
+
+  countDown(dateOfBeginning, dateOfEnd);
+
+}
+count(".coming-soon");
 function initMap(elem) {
 
     if($(elem).length==0){
@@ -48,27 +87,6 @@ function initMap(elem) {
  });
 
  $(function() {
-
-     function on_resize(c, t) {
-         onresize = function() {
-             clearTimeout(t);
-             t = setTimeout(c, 100);
-         };
-         return c;
-     }
-
-    function count(elem){   
-        if($(elem).length==0){
-            return 0;
-        };
-    
-        //CountDown
-        var dateOfBeginning = "Sep 21, 2015", //type your date of the Beginnig
-            dateOfEnd = "Jan 10, 2016"; //type your date of the end
-    
-        countDown(dateOfBeginning, dateOfEnd); 
-    
-    }
 
      var $container = $('#isotope-gallery-container');
      var $filter = $('.filter');
