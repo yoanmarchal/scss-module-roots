@@ -1,44 +1,48 @@
  "use strict";
-function countDown(e, t) {
+
+function count(beginning, end) {
+   var b = beginning || 'Jul 4, 2013',
+       e = end || 'Aug 15, 2016',
+       
+       remaining = Date.parse(e) - new Date,
+       
+       seconds = document.querySelector('.second'),
+       minutes = document.querySelector('.minute'),
+       hours = document.querySelector('.hour'),
+       days = document.querySelector('.day');
+  
   function update() {
-    var e = Math.floor(g / 1e3 % 60),
-      t = Math.floor(g / 6e4 % 60),
-      n = Math.floor(g / 36e5 % 24),
-      r = Math.floor(g / 864e5);
+    var s = Math.floor(remaining / 1e3 % 60),
+        m = Math.floor(remaining / 6e4 % 60),
+        h = Math.floor(remaining / 36e5 % 24),
+        d = Math.floor(remaining / 864e5);
     
-
-      i.text(e),
-      f.text(t),
-      p.text(n),
-      s.text(r);
-      g -= 1e3, setTimeout(update, 1e3)
-      
+      seconds.innerHTML = s;
+      minutes.innerHTML = m;
+      hours.innerHTML = h;
+      days.innerHTML = d;
+      remaining -= 1e3;
+      setTimeout(update, 1e3);
   }
-  var n = e || "Jul 4, 2013",
-    r = t || "Aug 15, 2016",
-    o = Date.parse(r) - Date.parse(n),
-    g = Date.parse(r) - new Date,
-    i = $(".second"),
-    f = $(".minute"),
-    p = $(".hour"),
-    s = $(".day").attr("data-max", Math.floor(o / 864e5));
-  update()
+
+  update();
 }
 
-function count(elem) {
-  var el = document.querySelector(elem)
-  if (el.length == 0) {
-    return 0;
-  };
+function countDown(options) {
+  var el = document.querySelector(options.selector);
+  
+  if (el.length === 0) {
+    return;
+  }
 
-  //CountDown
-  var dateOfBeginning = "feb 1, 2015", //type your date of the Beginnig
-    dateOfEnd = "apr 1, 2016"; //type your date of the end
-
-  countDown(dateOfBeginning, dateOfEnd);
-
+  count(options.beginning, options.end); 
 }
-count(".coming-soon");
+
+countDown({
+  selector: '.coming-soon',
+  beginning: 'feb 1, 2015',
+  end: 'apr 1, 2016'
+});
 function initMap(elem) {
 
     if($(elem).length==0){
