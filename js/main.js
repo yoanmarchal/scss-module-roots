@@ -1,5 +1,6 @@
  "use strict";
 
+/* from kirpal refactor -> http://codepen.io/kirpalmakanga/pen/bEQxWL */
 function count(beginning, end) {
    var b = beginning || 'Jul 4, 2013',
        e = end || 'Aug 15, 2016',
