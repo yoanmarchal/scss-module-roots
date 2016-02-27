@@ -1,0 +1,10 @@
+$color_niagara_approx: #16a085;
+.content-big-fa {
+    h4 {
+        margin-top: 0;
+    }
+    .fa {
+        font-size: 32px;
+        color: $color_niagara_approx;
+    }
+}
