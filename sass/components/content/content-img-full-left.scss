@@ -1,4 +1,4 @@
-.content-img-full-left {
+.content-img-full {
     padding: 0;
     position: relative;
     .image-container {
@@ -20,5 +20,18 @@
     }
     p.lead {
         margin-bottom: 20px;
+    }
+}
+@media(max-width: 767px) {
+    .content-img-full {
+        .client-row .row-wrapper {
+            border-bottom: none;
+        }
+        .row-wrapper .col-md-3 {
+            border-right: none;
+        }
+    }
+    .content-img-full .image-container {
+        display: none;
     }
 }
