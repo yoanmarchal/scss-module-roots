@@ -23,36 +23,37 @@ $color_pewter_approx: #95a5a6;
 
 
 // flat color ui
-@mixin generate-bg($color, $hexa) {
-  .bg-#{$color} {
-    background-color: $hexa;
-    color: invert($hexa)
-  }
+$color-list: (
+	(black, #111111),
+	(white, #FFFFFF),
+	(offwhite, #F5F5F5),
+	(clouds, #ECF0F1),
+	(silver, #BDC3C7),
+	(concrete, #95A5A6),
+	(asbestos, #7F8C8d),
+	(tan, #D1DBBD),
+	(pewter, #91AA9D),
+	(moonlight, #3E606F),
+	(deepocean, #193441),
+	(turquoise, #1ABC9C),
+	(aqua, #16A085),
+	(sunflower, #F1C40F),
+	(orange, #F39C12),
+	(sienna, #BF4E19),
+	(milanored, #AC1C00),
+	(river, #3498DB),
+	(marina, #2980B9),
+	(deco, #C9D787),
+	(crete, #7D8A2E),
+	(guardsman, #D90000),
+	(pomegranate, #C0392B),
+	(finn, #723147),
+	(tamarind, #31152B)
+);
+
+@each $label, $color in $color-list {
+  .bg-#{$label}{
+    background-color: $color;
+    color: invert($color);
+  };
 }
-
-@include generate-bg(black, #111111);
-@include generate-bg(white, #FFFFFF);
-@include generate-bg(offwhite, #F5F5F5);
-@include generate-bg(clouds, #ECF0F1);
-@include generate-bg(silver, #BDC3C7);
-@include generate-bg(concrete, #95A5A6);
-@include generate-bg(asbestos, #7F8C8d);
-@include generate-bg(tan, #D1DBBD);
-@include generate-bg(pewter, #91AA9D);
-@include generate-bg(moonlight, #3E606F);
-@include generate-bg(deepocean, #193441);
-@include generate-bg(turquoise, #1ABC9C);
-@include generate-bg(aqua, #16A085);
-@include generate-bg(sunflower, #F1C40F);
-@include generate-bg(orange, #F39C12);
-@include generate-bg(sienna, #BF4E19);
-@include generate-bg(milanored, #AC1C00);
-@include generate-bg(river, #3498DB);
-@include generate-bg(marina, #2980B9);
-@include generate-bg(deco, #C9D787);
-@include generate-bg(crete, #7D8A2E);
-@include generate-bg(guardsman, #D90000);
-@include generate-bg(pomegranate, #C0392B);
-@include generate-bg(finn, #723147);
-@include generate-bg(tamarind, #31152B);
-
