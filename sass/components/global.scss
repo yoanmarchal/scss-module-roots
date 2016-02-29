@@ -1,22 +1,28 @@
 
 /* PADDING, MARGIN & ALIGNMENT */
-.pad5 { padding-top:5px; }
-.pad10 { padding-top:10px; }
-.pad15 { padding-top:15px; }
-.pad25 { padding-top:25px; }
-.pad30 { padding-top:30px; }
-.pad45 { padding-top:45px; }
-.pad60 { padding-top:60px; }
-.pad90 { padding-top:90px; }
+@mixin padtop($size) {
+  .pad#{$size}{
+    padding-top: $size+px;
+  }
+}
+@for $i from 5 through 90 {
+  @if ($i % 5) == 0 {
+     @include padtop($i + 5);
+  }
+}
 
-.min-height-100px { min-height: 100px; }
-.min-height-200px { min-height: 200px; }
-.min-height-300px { min-height: 300px; }
-.min-height-400px { min-height: 400px; }
-.min-height-500px { min-height: 500px; }
-.min-height-600px { min-height: 600px; }
-.min-height-700px { min-height: 700px; }
-.min-height-800px { min-height: 800px; }
+@mixin min-height($size) {
+  .min-height-#{$size+px}{
+    min-height: $size+px;
+  }
+}
+@for $i from 100 through 800 {
+  @if ($i % 100) == 0 {
+     @include min-height($i);
+  }
+}
+
+
 
 .marg-bottom5 { margin-bottom: 5px; }
 .marg-left5 { margin-left: 5px; }

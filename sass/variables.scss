@@ -23,51 +23,36 @@ $color_pewter_approx: #95a5a6;
 
 
 // flat color ui
+@mixin generate-bg($color, $hexa) {
+  .bg-#{$color} {
+    background-color: $hexa;
+    color: invert($hexa)
+  }
+}
 
-.bg-black { 
-	background-color: #111111 !important; 
-	color: #fff;
-}
-.bg-white { background-color: #FFFFFF !important; }
-.bg-offwhite { background-color: #F5F5F5 !important; }
-.bg-clouds { background-color: #ECF0F1 !important; }
-.bg-silver { background-color: #BDC3C7 !important; }
-.bg-concrete { 
-	background-color: #95A5A6 !important;
-	color: #fff;
-}
-.bg-asbestos { 
-	background-color: #7F8C8d !important;
-	color: #fff;
-}
-.bg-tan { background-color: #D1DBBD !important; }
-.bg-pewter { background-color: #91AA9D !important; }
-.bg-moonlight { background-color: #3E606F !important;
-	color: #fff; }
-.bg-deepocean { background-color: #193441 !important;
-	color: #fff; }
-.bg-turquoise { background-color: #1ABC9C !important; }
-.bg-aqua { background-color: #16A085 !important; }
-.bg-sunflower { background-color: #F1C40F !important; }
-.bg-orange { background-color: #F39C12 !important; color: #fff;}
-.bg-sienna { background-color: #BF4E19 !important;color: #fff; }
-.bg-milanored { background-color: #AC1C00 !important;color: #fff; }
-.bg-river { background-color: #3498DB !important; 
-	color: #fff; }
-.bg-marina { background-color: #2980B9 !important;color: #fff; }
-.bg-deco { background-color: #C9D787 !important; }
-.bg-crete { background-color: #7D8A2E !important; color: #fff;}
-.bg-guardsman { 
-	background-color: #D90000 !important; 
-	color: #fff;}
-.bg-pomegranate { 
-	background-color: #C0392B !important;
-	color: #fff; }
-.bg-finn { 
-	background-color: #723147 !important;
-	color: #fff; }
-.bg-tamarind { 
-	background-color: #31152B !important; 
-	color: #fff;
-}
+@include generate-bg(black, #111111);
+@include generate-bg(white, #FFFFFF);
+@include generate-bg(offwhite, #F5F5F5);
+@include generate-bg(clouds, #ECF0F1);
+@include generate-bg(silver, #BDC3C7);
+@include generate-bg(concrete, #95A5A6);
+@include generate-bg(asbestos, #7F8C8d);
+@include generate-bg(tan, #D1DBBD);
+@include generate-bg(pewter, #91AA9D);
+@include generate-bg(moonlight, #3E606F);
+@include generate-bg(deepocean, #193441);
+@include generate-bg(turquoise, #1ABC9C);
+@include generate-bg(aqua, #16A085);
+@include generate-bg(sunflower, #F1C40F);
+@include generate-bg(orange, #F39C12);
+@include generate-bg(sienna, #BF4E19);
+@include generate-bg(milanored, #AC1C00);
+@include generate-bg(river, #3498DB);
+@include generate-bg(marina, #2980B9);
+@include generate-bg(deco, #C9D787);
+@include generate-bg(crete, #7D8A2E);
+@include generate-bg(guardsman, #D90000);
+@include generate-bg(pomegranate, #C0392B);
+@include generate-bg(finn, #723147);
+@include generate-bg(tamarind, #31152B);
 
