@@ -23,7 +23,8 @@
     "headroom.js": "~0.7.0",
     "isotope": "~2.2.2",
     "jquery": "~2.1.4",
-    "magnific-popup": "~1.0.0"
+    "magnific-popup": "~1.0.0",
+    "bootstrap-sass": "^3.3.6"
   },
   "overrides": {
     "isotope": {

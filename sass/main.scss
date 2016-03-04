@@ -1,5 +1,6 @@
 @import '../www/lib/components-font-awesome/scss/font-awesome';
 @import 'variables';
+@import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap';
 @import 'utilities/mixin';
 @import 'components/global';
 @import 'components/header/header';
@@ -24,4 +25,3 @@
 @include font-face('Lato', '#{$icon-font-path}lato-heavy', 600, normal);
 @include font-face('fontawesome', '#{$icon-font-path}fontawesome-webfont', normal, normal);
 */
-
