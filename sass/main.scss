@@ -1,6 +1,9 @@
-@import '../www/lib/components-font-awesome/scss/font-awesome';
+/* variables */
 @import 'variables';
-@import '../www/lib/bootstrap-sass/assets/stylesheets/_bootstrap';
+/* deps */
+@import 'bootstrap';
+@import 'font-awesome';
+/* modifiers */
 @import 'utilities/mixin';
 @import 'components/global';
 @import 'components/header/header';
