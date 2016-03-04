@@ -1,0 +1,75 @@
+.carousel {
+  height: 400px;
+  width: 750px;
+  margin: 0 auto; }
+  .carousel figure {
+    height: 400px;
+    background-size: cover;
+    position: relative; }
+    .carousel figure::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+      opacity: 0;
+      will-change: opacity;
+      transition: opacity 250ms ease-in-out; }
+  .carousel-inner {
+    border-radius: 3px; }
+  .carousel .carousel-control {
+    fill: #fff;
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0);
+    will-change: transform;
+    transition: transform 250ms ease-in;
+    opacity: 1; }
+    .carousel .carousel-control.left {
+      transform: translate(-100%); }
+    .carousel .carousel-control.right {
+      transform: translate(100%); }
+    .carousel .carousel-control svg {
+      height: 64px; }
+  .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    margin: 0;
+    padding: 30px;
+    text-align: right; }
+    .carousel-indicators li {
+      background-color: rgba(255, 255, 255, 0);
+      border: 1px solid white; }
+      .carousel-indicators li.active {
+        background-color: white;
+        border: 1px solid white; }
+  .carousel-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 25px;
+    color: #fff;
+    text-align: left;
+    transform: translateY(100%);
+    will-change: transform;
+    transition: transform 250ms ease-in;
+    font-size: 3em;
+    margin: 0; }
+    .carousel-caption::first-letter {
+      text-transform: uppercase; }
+  .carousel:hover .carousel-control.left, .carousel:hover .carousel-control.right {
+    transform: translate(0); }
+  .carousel:hover figure::before {
+    opacity: 1; }
+  .carousel:hover figure .carousel-caption {
+    transform: translateY(0); }

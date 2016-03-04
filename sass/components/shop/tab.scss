@@ -80,7 +80,7 @@ $black_20: rgba(0, 0, 0, 0.2);
                 float: left;
                 width: 50%;
                 font-size: 13px;
-                color: $white;
+                color: #fff;
                 background-color: $color_niagara_60_approx;
                 text-align: center;
                 border-right: 1px solid $black_10;
@@ -93,14 +93,13 @@ $black_20: rgba(0, 0, 0, 0.2);
                 }
                 &:hover {
                     background-color: $color_mine_shaft_approx;
-                    color: $white;
+                    color: #fff;
                     text-shadow: 1px 1px 1px $black_20;
                 }
             }
         }
         .advert {
             margin: 15px;
-            background: $color_celeste_approx;
             height: 200px;
         }
     }

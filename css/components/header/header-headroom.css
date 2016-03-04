@@ -1,0 +1,108 @@
+#header-headroom + .content-block:nth-child(2) {
+  padding: 140px 0 60px 0; }
+
+.banner {
+  width: 100%;
+  background: none; }
+  .banner .main-nav {
+    border: 0;
+    height: 80px; }
+    .banner .main-nav .navbar-toggle {
+      margin-right: 0;
+      margin-top: 0;
+      background: none;
+      position: absolute;
+      right: 20px;
+      top: 20px; }
+      .banner .main-nav .navbar-toggle:focus {
+        outline: none; }
+      .banner .main-nav .navbar-toggle .icon-bar {
+        height: 3px; }
+    .banner .main-nav .navbar-collapse {
+      background-color: #000; }
+    .banner .main-nav .nav {
+      margin: 0; }
+      .banner .main-nav .nav .nav-item a {
+        text-transform: uppercase;
+        font-size: 15px;
+        color: inherit;
+        border-top: 5px solid transparent; }
+        .banner .main-nav .nav .nav-item a:hover {
+          background: none;
+          border-top: 5px solid; }
+        .banner .main-nav .nav .nav-item a:focus {
+          outline: none;
+          background: none; }
+        .banner .main-nav .nav .nav-item a:active {
+          outline: none;
+          background: none; }
+      .banner .main-nav .nav .nav-item.active a {
+        color: inherit;
+        background: none; }
+      .banner .main-nav .nav .dropdown-menu {
+        border-radius: 4px;
+        background-clip: padding-box;
+        margin: 0;
+        border: none;
+        text-transform: none;
+        min-width: 180px; }
+        .banner .main-nav .nav .dropdown-menu:before {
+          content: "";
+          display: block;
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 10px solid;
+          position: absolute;
+          right: 35px;
+          top: -10px; }
+        .banner .main-nav .nav .dropdown-menu a {
+          padding: 8px 20px;
+          opacity: 1; }
+  .banner .brand-img {
+    max-width: 150px;
+    padding: 2px; }
+
+.headroom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .2s ease-in-out; }
+
+.headroom--unpinned {
+  top: -100px; }
+
+.headroom--pinned {
+  top: 0; }
+
+@media (max-width: 767px) {
+  #header-headroom .brand-img {
+    float: none;
+    margin: 0 auto;
+    text-align: center; }
+  #header-headroom .navbar-fixed-top {
+    position: relative; }
+    #header-headroom .navbar-fixed-top .navbar-collapse {
+      max-height: inherit; }
+  #header-headroom .navbar-collapse {
+    border-top: none;
+    box-shadow: none;
+    width: 100%;
+    top: 80px;
+    position: absolute;
+    z-index: 999; }
+    #header-headroom .navbar-collapse .nav {
+      margin: 0; }
+  #header-headroom .main-nav .nav .dropdown-menu:before {
+    display: none; }
+  #header-headroom .navbar-fixed-bottom .navbar-collapse {
+    max-height: inherit; } }
+
+.nav .open > a {
+  background: none; }
+  .nav .open > a:hover {
+    background: none; }
+  .nav .open > a:focus {
+    background: none; }

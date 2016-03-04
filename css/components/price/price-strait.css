@@ -1,0 +1,65 @@
+.pricing-table-strait .tables-row {
+  margin-top: 40px; }
+
+.pricing-table-strait .price-block {
+  margin: 0 auto 40px auto;
+  border-radius: 4px; }
+  .pricing-table-strait .price-block header {
+    background: #2f4052;
+    text-align: center;
+    padding: 50px; }
+  .pricing-table-strait .price-block h2 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: #fff; }
+  .pricing-table-strait .price-block .btn {
+    margin-bottom: 0; }
+  .pricing-table-strait .price-block .price {
+    margin-bottom: 15px;
+    color: #fff; }
+    .pricing-table-strait .price-block .price * {
+      font-family: Lato, sans-serif;
+      line-height: 100%; }
+    .pricing-table-strait .price-block .price .amount {
+      font-size: 120px;
+      font-weight: 900; }
+    .pricing-table-strait .price-block .price .currency {
+      position: relative;
+      top: 16px;
+      font-size: 24px;
+      vertical-align: top;
+      margin-right: 5px; }
+    .pricing-table-strait .price-block .price .period {
+      font-size: 16px;
+      text-transform: uppercase; }
+  .pricing-table-strait .price-block .features {
+    background: #f5f7fa;
+    padding: 25px 35px;
+    border: 1px solid #e6e9ed;
+    border-top: none;
+    border-bottom-width: 2px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top: 0 !important; }
+    .pricing-table-strait .price-block .features li {
+      padding: 15px 0;
+      border-top: 1px solid #bcc7d1;
+      list-style: none; }
+      .pricing-table-strait .price-block .features li:first-child {
+        border: none; }
+      .pricing-table-strait .price-block .features li i {
+        margin-right: 10px; }
+
+.pricing-table-strait .col-4 .price-block header {
+  padding: 40px; }
+
+.pricing-table-strait .col-4 .price-block h2 {
+  font-size: 18px; }
+
+.pricing-table-strait .col-4 .price-block .features {
+  padding: 20px 30px; }
+
+.pricing-table-strait .col-4 .price-block .price .amount {
+  font-size: 90px; }

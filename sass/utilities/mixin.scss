@@ -17,11 +17,7 @@
   height: 100%;
 }
 
-//	Exemple
-/*
-@include font-face('Lato', '#{$icon-font-path}lato-normal', normal, normal);
-@include font-face('Lato', '#{$icon-font-path}lato-light', 300, normal);
-*/
+
 
 @mixin font-face($font-family, $file-path, $font-weight, $font-style) {
   @font-face {

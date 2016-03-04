@@ -1,10 +1,11 @@
 /* variables */
 @import 'variables';
-/* deps */
-@import 'bootstrap';
-@import 'font-awesome';
-/* modifiers */
 @import 'utilities/mixin';
+/* deps */
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../bower_components/components-font-awesome/scss/font-awesome';
+/* modifiers */
+
 @import 'components/global';
 @import 'components/header/header';
 @import 'components/galerie/galerie';

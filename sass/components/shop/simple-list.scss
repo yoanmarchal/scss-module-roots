@@ -45,16 +45,13 @@
                 font-weight: 600;
                 margin-bottom: 20px;
                 text-decoration: none;
-                color: $color_tundora_approx;
                 del {
                     font-weight: 400;
                     font-size: 80%;
-                    color: $color_suva_gray_approx;
                 }
             }
             .product-rating .fa {
                 font-size: 18px;
-                color: $color_corn_approx;
             }
         }
         .product-overlay {
@@ -71,10 +68,8 @@
                 float: left;
                 width: 50%;
                 font-size: 13px;
-                color: $white;
-                background-color: $color_niagara_60_approx;
                 text-align: center;
-                border-right: 1px solid $black_10;
+                border-right: 1px solid ;
                 &.gallery-zoom {
                     border-right: 0;
                 }
@@ -83,15 +78,12 @@
                     font-size: 18px;
                 }
                 &:hover {
-                    background-color: $color_mine_shaft_approx;
-                    color: $white;
-                    text-shadow: 1px 1px 1px $black_20;
+                    text-shadow: 1px 1px 1px ;
                 }
             }
         }
         .advert {
             margin: 15px;
-            background: $color_celeste_approx;
             height: 200px;
         }
     }
