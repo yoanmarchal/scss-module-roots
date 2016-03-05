@@ -22,11 +22,11 @@ $color_storm_dust_approx: #666;
       outline: none;
     }
     .icon-bar {
-      background-color: $color_mountain_mist_approx;
+
       height: 3px;
     }
     &:hover .icon-bar {
-      background-color: $color_curious_blue_approx;
+
     }
   }
   .navbar-fixed-top .navbar-collapse {
@@ -45,14 +45,14 @@ $color_storm_dust_approx: #666;
         color: $color_storm_dust_approx;
         background: none;
         &:hover {
-          color: $color_curious_blue_approx;
+
         }
         &:focus {
           outline: none;
         }
       }
       &.active a {
-        color: $color_curious_blue_approx;
+
       }
     }
     .dropdown-menu {
@@ -61,14 +61,12 @@ $color_storm_dust_approx: #666;
       border: none;
       text-transform: none;
       min-width: 180px;
-      background: $color_william_approx;
       a {
         padding: 8px 20px;
         color: $color_storm_dust_approx;
         opacity: 1;
         &:hover {
-          background: $color_curious_blue_approx;
-          color: $white;
+
         }
       }
     }
@@ -91,7 +89,6 @@ $color_storm_dust_approx: #666;
     border: none;
     text-transform: none;
     min-width: 180px;
-    background: $color_william_approx;
     &:before {
       content: "";
       display: block;
@@ -99,18 +96,16 @@ $color_storm_dust_approx: #666;
       height: 0;
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
-      border-bottom: 10px solid $color_william_approx;
+      border-bottom: 10px solid ;
       position: absolute;
       right: 35px;
       top: -10px;
     }
     a {
       padding: 8px 20px;
-      color: $white;
       opacity: 1;
       &:hover {
-        background: $color_elephant_approx;
-        color: $white;
+
       }
     }
   }

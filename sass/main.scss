@@ -1,7 +1,13 @@
-@import '../www/lib/components-font-awesome/scss/font-awesome';
+/* variables */
 @import 'variables';
-@import '../www/lib/bootstrap-sass/assets/stylesheets/_bootstrap';
 @import 'utilities/mixin';
+/*
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'deps/components-font-awesome/scss/font-awesome';
+*/
+// @import 'deps/bootstrap';
+
+
 @import 'components/global';
 @import 'components/header/header';
 @import 'components/galerie/galerie';

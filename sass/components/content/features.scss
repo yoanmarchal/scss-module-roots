@@ -1,4 +1,5 @@
 $color_tawny_port_approx: #723147;
+$color_revolver_approx: #31152b;
 .features {
     .feature-box {
         background: $color_tawny_port_approx;
@@ -18,7 +19,6 @@ $color_tawny_port_approx: #723147;
             height: 150px;
             width: 150px;
             max-width: 100%;
-            background-color: $white;
             border-radius: 50%;
             display: block;
             text-align: center;
@@ -33,12 +33,10 @@ $color_tawny_port_approx: #723147;
         }
         p {
             line-height: 25px;
-            color: $white;
             opacity: 0.5;
         }
         h3 {
             padding: 15px 0 0;
-            color: $white;
         }
     }
     .feature-icon {

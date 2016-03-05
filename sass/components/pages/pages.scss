@@ -32,9 +32,6 @@
         position: relative;
         //clean padding from content
         padding: 0;
-        @media screen and (min-width: $screen-md-min) {
-            height: 80vh;
-        }
         &:before {
             content: '';
             @extend .absolute;

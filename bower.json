@@ -18,7 +18,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {
+  "devDependencies": {
     "components-font-awesome": "^4.5.0",
     "headroom.js": "~0.7.0",
     "isotope": "~2.2.2",

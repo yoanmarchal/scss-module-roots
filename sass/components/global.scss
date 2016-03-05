@@ -23,6 +23,13 @@ $headingfont: 'Lato';
   }
 }
 
+$icon-font-path:        "../fonts/";
+//	Exemple
+
+// @include font-face('Lato', '#{$icon-font-path}lato-normal', normal, normal);
+// @include font-face('Lato', '#{$icon-font-path}lato-light', 300, normal);
+
+
 .marg-bottom5 { margin-bottom: 5px; }
 .marg-left5 { margin-left: 5px; }
 .marg-right5 { margin-right: 5px; }
@@ -83,7 +90,7 @@ h6, .h6 { font-size: 16px; }
 	hr {
 		width: 10%;
 		border-width: 2px;
-		border-color: $color_niagara_approx;
+		border-color: inherit;
 	}
 }
 
@@ -737,7 +744,6 @@ fieldset[disabled] .form-control {
 	border: 1px solid #16A085;
 	border-radius: 0;
 	color: #16A085;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	min-width: 160px;
 }

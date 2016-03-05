@@ -1,0 +1,84 @@
+.shop-tab #tabbed-shop {
+  margin: 40px 0 0; }
+
+.shop-tab .product {
+  position: relative;
+  float: left; }
+
+.shop-tab .product-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  .shop-tab .product-image img {
+    display: block;
+    width: 100%; }
+  .shop-tab .product-image > a {
+    display: block;
+    width: 100%; }
+    .shop-tab .product-image > a:nth-of-type(2) {
+      opacity: 0;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0; }
+  .shop-tab .product-image .slide a {
+    display: block;
+    width: 100%; }
+  .shop-tab .product-image:hover > a:nth-of-type(2) {
+    opacity: 1;
+    z-index: 2; }
+
+.shop-tab .product-desc {
+  padding: 15px 0;
+  font-size: 14px; }
+  .shop-tab .product-desc h3 {
+    margin: 0 0 10px 0;
+    font-size: 22px; }
+  .shop-tab .product-desc h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #454545; }
+    .shop-tab .product-desc h4 del {
+      font-weight: 400;
+      font-size: 80%;
+      color: #888; }
+  .shop-tab .product-desc .product-rating .fa {
+    font-size: 18px;
+    color: #f1c40f; }
+
+.shop-tab .product-overlay {
+  position: absolute;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  top: auto;
+  bottom: -44px;
+  left: 0;
+  z-index: 6; }
+  .shop-tab .product-overlay a {
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: 13px;
+    color: #fff;
+    background-color: rgba(22, 160, 133, 0.6);
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1); }
+    .shop-tab .product-overlay a.gallery-zoom {
+      border-right: 0; }
+    .shop-tab .product-overlay a i {
+      position: relative;
+      font-size: 18px; }
+    .shop-tab .product-overlay a:hover {
+      background-color: #333;
+      color: #fff;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
+
+.shop-tab .advert {
+  margin: 15px;
+  height: 200px; }
+
+body:not(.device-touch):not(.device-xs):not(.device-xxs) .shop-tab .product-image > a {
+  transition: all .5s ease; }

@@ -1,0 +1,26 @@
+.footer-clean {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center; }
+  .footer-clean h2 {
+    color: inherit; }
+  .footer-clean .footer-form {
+    margin-top: 40px; }
+  .footer-clean input[type=text] {
+    border: solid 1px;
+    padding: 20px;
+    width: 30%;
+    color: inherit; }
+  .footer-clean input[type=submit] {
+    background: rgba(0, 0, 0, 0.2);
+    border: solid 1px;
+    padding: 20px;
+    color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    .footer-clean input[type=submit]:hover {
+      background: rgba(0, 0, 0, 0.3);
+      border: solid 1px;
+      color: inherit; }
+  .footer-clean .social {
+    margin-top: 30px; }

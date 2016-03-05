@@ -39,11 +39,9 @@
                 font-weight: 600;
                 margin-bottom: 20px;
                 text-decoration: none;
-                color: $color_tundora_approx;
                 del {
                     font-weight: 400;
                     font-size: 80%;
-                    color: $color_suva_gray_approx;
                 }
             }
             .product-rating {
@@ -53,7 +51,6 @@
                 }
                 .fa {
                     font-size: 18px;
-                    color: $color_corn_approx;
                 }
             }
             .input-group {
@@ -68,7 +65,6 @@
                 clear: left;
                 .fa {
                     font-size: 18px;
-                    color: $color_corn_approx;
                 }
             }
             h4 {
@@ -77,7 +73,6 @@
             h5 {
                 float: right;
                 margin-top: 15px;
-                color: $color_celeste_approx;
             }
         }
         .more-info-tabs {
@@ -96,7 +91,7 @@
             .widget {
                 margin-top: 40px;
                 padding-bottom: 20px;
-                border-bottom: 1px solid $color_alto_approx;
+                border-bottom: 1px solid ;
                 &:nth-of-type(1) {
                     margin-top: 0;
                 }
@@ -118,15 +113,15 @@
                     margin-left: 2px;
                 }
                 &.active > a {
-                    color: $white;
-                    background-color: $color_niagara_approx;
+
+
                     &:hover {
-                        color: $white;
-                        background-color: $color_niagara_approx;
+
+
                     }
                     &:focus {
-                        color: $white;
-                        background-color: $color_niagara_approx;
+
+
                     }
                 }
             }
@@ -142,7 +137,7 @@
             clear: left;
             margin-top: 20px;
             padding-top: 20px;
-            border-top: 1px dashed $mercury;
+            border-top: 1px dashed ;
             .entry-image {
                 float: left;
                 margin: 0 15px 0 0;
@@ -155,8 +150,6 @@
                     i {
                         font-size: 28px;
                         line-height: 48px;
-                        color: $color_storm_dust_approx;
-                        background-color: $color_gallery_approx;
                     }
                 }
                 img {
@@ -171,7 +164,6 @@
             h4 {
                 margin: 0 0 10px 0;
                 font-size: 18px;
-                color: $color_green_approx;
             }
             h5 {
                 float: left;
@@ -180,13 +172,11 @@
                 margin-top: 0;
                 margin-bottom: 20px;
                 text-decoration: none;
-                color: $color_tundora_approx;
             }
             .product-rating {
                 float: right;
                 .fa {
                     font-size: 14px;
-                    color: $color_corn_approx;
                 }
             }
         }
