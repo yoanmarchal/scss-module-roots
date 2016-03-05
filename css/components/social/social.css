@@ -1,79 +1,127 @@
 .big-social {
-  margin-top: 20px; }
-  .big-social .social-item {
-    text-align: center; }
-    .big-social .social-item a {
-      display: block;
-      border-radius: 4px;
-      padding: 18px;
-      color: inherit;
-      font-size: 22px;
-      text-decoration: none; }
-      .big-social .social-item a h4 {
-        color: inherit;
-        visibility: hidden;
-        margin-bottom: 0; }
-      .big-social .social-item a:hover h4 {
-        visibility: visible; }
-      .big-social .social-item a:focus h4 {
-        visibility: visible; }
-    .big-social .social-item.facebook a:hover {
-      background-color: #016bb6; }
-    .big-social .social-item.facebook a:focus {
-      background-color: #016bb6; }
-    .big-social .social-item.twitter a:hover {
-      background-color: #08c1e2; }
-    .big-social .social-item.twitter a:focus {
-      background-color: #08c1e2; }
-    .big-social .social-item.google a:hover {
-      background-color: #d94b34; }
-    .big-social .social-item.google a:focus {
-      background-color: #d94b34; }
+  margin-top: 20px;
+}
+
+.big-social .social-item {
+  text-align: center;
+}
+
+.big-social .social-item a {
+  display: block;
+  border-radius: 4px;
+  padding: 18px;
+  color: inherit;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.big-social .social-item a h4 {
+  color: inherit;
+  visibility: hidden;
+  margin-bottom: 0;
+}
+
+.big-social .social-item a:hover h4 {
+  visibility: visible;
+}
+
+.big-social .social-item a:focus h4 {
+  visibility: visible;
+}
+
+.big-social .social-item.facebook a:hover {
+  background-color: #016bb6;
+}
+
+.big-social .social-item.facebook a:focus {
+  background-color: #016bb6;
+}
+
+.big-social .social-item.twitter a:hover {
+  background-color: #08c1e2;
+}
+
+.big-social .social-item.twitter a:focus {
+  background-color: #08c1e2;
+}
+
+.big-social .social-item.google a:hover {
+  background-color: #d94b34;
+}
+
+.big-social .social-item.google a:focus {
+  background-color: #d94b34;
+}
 
 .social {
   padding: 0;
   margin: 0;
   list-style: none;
   position: relative;
-  z-index: 100; }
-  .social li {
-    display: inline-block;
-    margin-right: 6px; }
-    .social li a {
-      display: table;
-      position: relative;
-      text-decoration: none; }
-      .social li a i {
-        text-align: center;
-        display: table-cell;
-        vertical-align: middle;
-        width: 34px;
-        height: 34px;
-        font-size: 18px;
-        color: inherit;
-        transition: all 200ms ease-out; }
-        .social li a i:after {
-          content: '';
-          z-index: -1;
-          position: absolute;
-          width: 100%;
-          height: 0;
-          top: 0;
-          left: 0;
-          transition: all 200ms ease-out; }
-      .social li a:hover i {
-        color: #f0f0f0; }
-        .social li a:hover i:after {
-          height: 100%; }
-  .social a .fa-facebook:after {
-    background: #3b5998; }
-  .social a .fa-google-plus:after {
-    background: #dd4b39; }
-  .social a .fa-twitter:after {
-    background: #00aced; }
-  .social a .fa-pinterest:after {
-    background: #cb2027; }
-  .social a .fa-behance:after {
-    background: #1769ff; }
-  .social a .fa-dribbble:after {
-    background: #ea4c89; }
+  z-index: 100;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.social li a {
+  display: table;
+  position: relative;
+  text-decoration: none;
+}
+
+.social li a i {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+  color: inherit;
+  transition: all 200ms ease-out;
+}
+
+.social li a i:after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  transition: all 200ms ease-out;
+}
+
+.social li a:hover i {
+  color: #f0f0f0;
+}
+
+.social li a:hover i:after {
+  height: 100%;
+}
+
+.social a .fa-facebook:after {
+  background: #3b5998;
+}
+
+.social a .fa-google-plus:after {
+  background: #dd4b39;
+}
+
+.social a .fa-twitter:after {
+  background: #00aced;
+}
+
+.social a .fa-pinterest:after {
+  background: #cb2027;
+}
+
+.social a .fa-behance:after {
+  background: #1769ff;
+}
+
+.social a .fa-dribbble:after {
+  background: #ea4c89;
+}

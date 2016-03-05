@@ -8,7 +8,7 @@
   "moduleType": "globals",
   "main": [
     "js/main.js",
-    "sass/main.scss"
+    "css/main.scss"
   ],
   "license": "MIT",
   "ignore": [

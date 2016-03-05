@@ -1,57 +1,80 @@
 .call-to-action-50 {
-  padding: 140px 0; }
-  .call-to-action-50 .video-wrapper {
-    max-width: 600px;
-    margin: 20px auto 0 auto; }
+  padding: 140px 0;
+}
+
+.call-to-action-50 .video-wrapper {
+  max-width: 600px;
+  margin: 20px auto 0 auto;
+}
 
 .call-to-action-countdown h1 {
   font-size: 60px;
-  color: inherit; }
+  color: inherit;
+}
 
 .call-to-action-countdown h2 {
-  color: inherit; }
+  color: inherit;
+}
 
 .call-to-action-countdown .countDown {
   margin: 80px auto 40px auto;
-  font-size: 0; }
-  .call-to-action-countdown .countDown .countDown-input {
-    display: none; }
-  .call-to-action-countdown .countDown .countDown-wrap {
-    width: 185px;
-    margin: 0 15px 20px;
-    display: inline-block;
-    background: rgba(133, 214, 222, 0.1); }
-  .call-to-action-countdown .countDown .digits {
-    display: block;
-    margin-top: 34px;
-    margin-bottom: -6px;
-    font-family: Lato, Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 5vw;
-    color: inherit; }
-  .call-to-action-countdown .countDown .digits-label {
-    margin-bottom: 18px;
-    font-family: Lato, Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;
-    color: inherit; }
+  font-size: 0;
+}
+
+.call-to-action-countdown .countDown .countDown-input {
+  display: none;
+}
+
+.call-to-action-countdown .countDown .countDown-wrap {
+  width: 185px;
+  margin: 0 15px 20px;
+  display: inline-block;
+  background: rgba(133, 214, 222, 0.1);
+}
+
+.call-to-action-countdown .countDown .digits {
+  display: block;
+  margin-top: 34px;
+  margin-bottom: -6px;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 5vw;
+  color: inherit;
+}
+
+.call-to-action-countdown .countDown .digits-label {
+  margin-bottom: 18px;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: inherit;
+}
 
 .call-to-action-center {
   background: url(https://farm1.staticflickr.com/394/18837151753_41e23e1959_k_d.jpg) center top no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 140px 0; }
-  .call-to-action-center h1 {
-    font-size: 60px;
-    color: #ffffff; }
-  .call-to-action-center h2 {
-    font-weight: 600;
-    color: #ffffff; }
-  .call-to-action-center a {
-    margin-top: 40px; }
+  padding: 140px 0;
+}
+
+.call-to-action-center h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.call-to-action-center h2 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.call-to-action-center a {
+  margin-top: 40px;
+}
 
 .cta-center-full .btn-outline {
-  margin: 1.8em; }
+  margin: 1.8em;
+}
 
 .cta-center-full h2 {
-  line-height: 1.4em; }
+  line-height: 1.4em;
+}

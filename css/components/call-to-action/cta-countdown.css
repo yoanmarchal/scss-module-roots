@@ -1,31 +1,42 @@
 .call-to-action-countdown h1 {
   font-size: 60px;
-  color: inherit; }
+  color: inherit;
+}
 
 .call-to-action-countdown h2 {
-  color: inherit; }
+  color: inherit;
+}
 
 .call-to-action-countdown .countDown {
   margin: 80px auto 40px auto;
-  font-size: 0; }
-  .call-to-action-countdown .countDown .countDown-input {
-    display: none; }
-  .call-to-action-countdown .countDown .countDown-wrap {
-    width: 185px;
-    margin: 0 15px 20px;
-    display: inline-block;
-    background: rgba(133, 214, 222, 0.1); }
-  .call-to-action-countdown .countDown .digits {
-    display: block;
-    margin-top: 34px;
-    margin-bottom: -6px;
-    font-family: Lato, Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 5vw;
-    color: inherit; }
-  .call-to-action-countdown .countDown .digits-label {
-    margin-bottom: 18px;
-    font-family: Lato, Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;
-    color: inherit; }
+  font-size: 0;
+}
+
+.call-to-action-countdown .countDown .countDown-input {
+  display: none;
+}
+
+.call-to-action-countdown .countDown .countDown-wrap {
+  width: 185px;
+  margin: 0 15px 20px;
+  display: inline-block;
+  background: rgba(133, 214, 222, 0.1);
+}
+
+.call-to-action-countdown .countDown .digits {
+  display: block;
+  margin-top: 34px;
+  margin-bottom: -6px;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 5vw;
+  color: inherit;
+}
+
+.call-to-action-countdown .countDown .digits-label {
+  margin-bottom: 18px;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: inherit;
+}

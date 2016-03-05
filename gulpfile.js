@@ -8,6 +8,8 @@ var config = {
      bowerDir: './bower_components' 
 }
 
+
+
 gulp.task('bower', function() { 
     return bower()
          .pipe(gulp.dest(config.bowerDir)) 

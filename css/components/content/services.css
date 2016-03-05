@@ -1,19 +1,28 @@
 .content-services {
-  text-align: center; }
-  .content-services p {
-    padding: 0 20px; }
-  .content-services .services-wrapper {
-    margin: 20px 0 0; }
-    .content-services .services-wrapper .icon {
-      height: 175px;
-      width: 175px;
-      max-width: 100%;
-      border-radius: 50%;
-      display: block;
-      text-align: center;
-      vertical-align: middle;
-      position: relative;
-      margin: 0 auto 50px; }
-      .content-services .services-wrapper .icon span {
-        line-height: 175px;
-        font-size: 55px; }
+  text-align: center;
+}
+
+.content-services p {
+  padding: 0 20px;
+}
+
+.content-services .services-wrapper {
+  margin: 20px 0 0;
+}
+
+.content-services .services-wrapper .icon {
+  height: 175px;
+  width: 175px;
+  max-width: 100%;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto 50px;
+}
+
+.content-services .services-wrapper .icon span {
+  line-height: 175px;
+  font-size: 55px;
+}
