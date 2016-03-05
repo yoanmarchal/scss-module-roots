@@ -1,8 +1,3 @@
-//colors
-$white: #ffffff;
-$color_seagull_10_approx: rgba(133, 214, 222, 0.1);
-$color_tree_poppy_approx: #f39c12; // border color
-
 .call-to-action-countdown {
   h1 {
     font-size: 60px;
@@ -21,7 +16,6 @@ $color_tree_poppy_approx: #f39c12; // border color
       width: 185px;
       margin: 0 15px 20px;
       display: inline-block;
-      background: $color_seagull_10_approx;
     }
     .digits {
       display: block;
