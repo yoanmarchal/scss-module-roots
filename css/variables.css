@@ -1,124 +1,99 @@
 .bg-black {
   background-color: #111111;
-  color: #eeeeee;
-}
+  color: #eeeeee; }
 
 .bg-white {
   background-color: #FFFFFF;
-  color: black;
-}
+  color: black; }
 
 .bg-offwhite {
   background-color: #F5F5F5;
-  color: #0a0a0a;
-}
+  color: #0a0a0a; }
 
 .bg-clouds {
   background-color: #ECF0F1;
-  color: #130f0e;
-}
+  color: #130f0e; }
 
 .bg-silver {
   background-color: #BDC3C7;
-  color: #423c38;
-}
+  color: #423c38; }
 
 .bg-concrete {
   background-color: #95A5A6;
-  color: #6a5a59;
-}
+  color: #6a5a59; }
 
 .bg-asbestos {
   background-color: #7F8C8d;
-  color: #807372;
-}
+  color: #807372; }
 
 .bg-tan {
   background-color: #D1DBBD;
-  color: #2e2442;
-}
+  color: #2e2442; }
 
 .bg-pewter {
   background-color: #91AA9D;
-  color: #6e5562;
-}
+  color: #6e5562; }
 
 .bg-moonlight {
   background-color: #3E606F;
-  color: #c19f90;
-}
+  color: #c19f90; }
 
 .bg-deepocean {
   background-color: #193441;
-  color: #e6cbbe;
-}
+  color: #e6cbbe; }
 
 .bg-turquoise {
   background-color: #1ABC9C;
-  color: #e54363;
-}
+  color: #e54363; }
 
 .bg-aqua {
   background-color: #16A085;
-  color: #e95f7a;
-}
+  color: #e95f7a; }
 
 .bg-sunflower {
   background-color: #F1C40F;
-  color: #0e3bf0;
-}
+  color: #0e3bf0; }
 
 .bg-orange {
   background-color: #F39C12;
-  color: #0c63ed;
-}
+  color: #0c63ed; }
 
 .bg-sienna {
   background-color: #BF4E19;
-  color: #40b1e6;
-}
+  color: #40b1e6; }
 
 .bg-milanored {
   background-color: #AC1C00;
-  color: #53e3ff;
-}
+  color: #53e3ff; }
 
 .bg-river {
   background-color: #3498DB;
-  color: #cb6724;
-}
+  color: #cb6724; }
 
 .bg-marina {
   background-color: #2980B9;
-  color: #d67f46;
-}
+  color: #d67f46; }
 
 .bg-deco {
   background-color: #C9D787;
-  color: #362878;
-}
+  color: #362878; }
 
 .bg-crete {
   background-color: #7D8A2E;
-  color: #8275d1;
-}
+  color: #8275d1; }
 
 .bg-guardsman {
   background-color: #D90000;
-  color: #26ffff;
-}
+  color: #26ffff; }
 
 .bg-pomegranate {
   background-color: #C0392B;
-  color: #3fc6d4;
-}
+  color: #3fc6d4; }
 
 .bg-finn {
   background-color: #723147;
-  color: #8dceb8;
-}
+  color: #8dceb8; }
 
 .bg-tamarind {
   background-color: #31152B;
-  color: #ceead4;
-}
+  color: #ceead4; }

@@ -2,10 +2,7 @@
   height: 80px;
   padding-top: 28px;
   position: relative;
-  bottom: 0;
-}
-
-.copyright-bar-2 p {
-  font-weight: 700;
-  margin: 0;
-}
+  bottom: 0; }
+  .copyright-bar-2 p {
+    font-weight: 700;
+    margin: 0; }

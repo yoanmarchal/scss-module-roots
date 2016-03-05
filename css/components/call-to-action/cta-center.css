@@ -2,19 +2,12 @@
   background: url(https://farm1.staticflickr.com/394/18837151753_41e23e1959_k_d.jpg) center top no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 140px 0;
-}
-
-.call-to-action-center h1 {
-  font-size: 60px;
-  color: #ffffff;
-}
-
-.call-to-action-center h2 {
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.call-to-action-center a {
-  margin-top: 40px;
-}
+  padding: 140px 0; }
+  .call-to-action-center h1 {
+    font-size: 60px;
+    color: #ffffff; }
+  .call-to-action-center h2 {
+    font-weight: 600;
+    color: #ffffff; }
+  .call-to-action-center a {
+    margin-top: 40px; }

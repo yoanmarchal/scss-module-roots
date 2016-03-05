@@ -2,185 +2,131 @@
   text-align: center;
   color: #ffffff;
   transition: all 0.25s;
-  margin: 0 auto 20px auto;
-}
-
-.pricing-table-1 .price-block:hover {
-  transform: scale(1.04) translateY(-5px);
-  z-index: 1;
-  border-bottom: 0 none;
-}
-
-.pricing-table-1 .price-block:hover .price.pastel-blue {
-  background: #6082eb;
-}
-
-.pricing-table-1 .price-block:hover .price.pastel-green {
-  background: #18b29d;
-}
-
-.pricing-table-1 .price-block:hover .price.pastel-red {
-  background: #ff5e65;
-}
-
-.pricing-table-1 .price-block:hover .price.pastel-orange {
-  background: #ffb068;
-}
-
-.pricing-table-1 .price-block:hover h3 {
-  background: #233447;
-}
+  margin: 0 auto 20px auto; }
+  .pricing-table-1 .price-block:hover {
+    transform: scale(1.04) translateY(-5px);
+    z-index: 1;
+    border-bottom: 0 none; }
+    .pricing-table-1 .price-block:hover .price.pastel-blue {
+      background: #6082eb; }
+    .pricing-table-1 .price-block:hover .price.pastel-green {
+      background: #18b29d; }
+    .pricing-table-1 .price-block:hover .price.pastel-red {
+      background: #ff5e65; }
+    .pricing-table-1 .price-block:hover .price.pastel-orange {
+      background: #ffb068; }
+    .pricing-table-1 .price-block:hover h3 {
+      background: #233447; }
 
 .pricing-table-1 h3 {
   text-transform: uppercase;
   padding: 20px 0;
   background: #2c3e50;
   margin: 0;
-  border-radius: 6px 6px 0 0;
-}
+  border-radius: 6px 6px 0 0; }
 
 .pricing-table-1 .price {
   display: inline-block;
   background: #898989;
-  width: 100%;
-}
+  width: 100%; }
 
 .pricing-table-1 .price-figure {
   font-size: 24px;
   text-transform: uppercase;
-  padding-top: 14px;
-}
+  padding-top: 14px; }
 
 .pricing-table-1 .price-number {
   font-weight: 600;
   display: block;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .pricing-table-1 .price-tenure {
   font-size: 11px;
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 .pricing-table-1 .features {
   background: #e6e6e6;
   color: #555555;
   padding: 0;
-  margin: 0;
-}
-
-.pricing-table-1 .features li {
-  padding: 8px 15px;
-  border-bottom: 1px solid #ccc;
-  list-style-type: none;
-}
+  margin: 0; }
+  .pricing-table-1 .features li {
+    padding: 8px 15px;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none; }
 
 .pricing-table-1 .price-footer {
   display: block;
   background: #2c3e50;
   border-radius: 0 0 6px 6px;
   margin-top: -5px;
-  padding: 10px 0;
-}
+  padding: 10px 0; }
 
 @media only screen and (min-width: 992px) {
   .pricing-table-1 .price-block {
-    margin-bottom: 20px;
-  }
-}
+    margin-bottom: 20px; } }
 
 .pricing-table-strait .tables-row {
-  margin-top: 40px;
-}
+  margin-top: 40px; }
 
 .pricing-table-strait .price-block {
   margin: 0 auto 40px auto;
-  border-radius: 4px;
-}
-
-.pricing-table-strait .price-block header {
-  background: #2f4052;
-  text-align: center;
-  padding: 50px;
-}
-
-.pricing-table-strait .price-block h2 {
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: .15em;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.pricing-table-strait .price-block .btn {
-  margin-bottom: 0;
-}
-
-.pricing-table-strait .price-block .price {
-  margin-bottom: 15px;
-  color: #fff;
-}
-
-.pricing-table-strait .price-block .price * {
-  font-family: Lato, sans-serif;
-  line-height: 100%;
-}
-
-.pricing-table-strait .price-block .price .amount {
-  font-size: 120px;
-  font-weight: 900;
-}
-
-.pricing-table-strait .price-block .price .currency {
-  position: relative;
-  top: 16px;
-  font-size: 24px;
-  vertical-align: top;
-  margin-right: 5px;
-}
-
-.pricing-table-strait .price-block .price .period {
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
-.pricing-table-strait .price-block .features {
-  background: #f5f7fa;
-  padding: 25px 35px;
-  border: 1px solid #e6e9ed;
-  border-top: none;
-  border-bottom-width: 2px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  margin-top: 0 !important;
-}
-
-.pricing-table-strait .price-block .features li {
-  padding: 15px 0;
-  border-top: 1px solid #bcc7d1;
-  list-style: none;
-}
-
-.pricing-table-strait .price-block .features li:first-child {
-  border: none;
-}
-
-.pricing-table-strait .price-block .features li i {
-  margin-right: 10px;
-}
+  border-radius: 4px; }
+  .pricing-table-strait .price-block header {
+    background: #2f4052;
+    text-align: center;
+    padding: 50px; }
+  .pricing-table-strait .price-block h2 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: #fff; }
+  .pricing-table-strait .price-block .btn {
+    margin-bottom: 0; }
+  .pricing-table-strait .price-block .price {
+    margin-bottom: 15px;
+    color: #fff; }
+    .pricing-table-strait .price-block .price * {
+      font-family: Lato, sans-serif;
+      line-height: 100%; }
+    .pricing-table-strait .price-block .price .amount {
+      font-size: 120px;
+      font-weight: 900; }
+    .pricing-table-strait .price-block .price .currency {
+      position: relative;
+      top: 16px;
+      font-size: 24px;
+      vertical-align: top;
+      margin-right: 5px; }
+    .pricing-table-strait .price-block .price .period {
+      font-size: 16px;
+      text-transform: uppercase; }
+  .pricing-table-strait .price-block .features {
+    background: #f5f7fa;
+    padding: 25px 35px;
+    border: 1px solid #e6e9ed;
+    border-top: none;
+    border-bottom-width: 2px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top: 0 !important; }
+    .pricing-table-strait .price-block .features li {
+      padding: 15px 0;
+      border-top: 1px solid #bcc7d1;
+      list-style: none; }
+      .pricing-table-strait .price-block .features li:first-child {
+        border: none; }
+      .pricing-table-strait .price-block .features li i {
+        margin-right: 10px; }
 
 .pricing-table-strait .col-4 .price-block header {
-  padding: 40px;
-}
+  padding: 40px; }
 
 .pricing-table-strait .col-4 .price-block h2 {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 .pricing-table-strait .col-4 .price-block .features {
-  padding: 20px 30px;
-}
+  padding: 20px 30px; }
 
 .pricing-table-strait .col-4 .price-block .price .amount {
-  font-size: 90px;
-}
+  font-size: 90px; }

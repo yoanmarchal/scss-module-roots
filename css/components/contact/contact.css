@@ -1,35 +1,27 @@
 .contact-1 .form-container {
-  margin-top: 60px;
-}
+  margin-top: 60px; }
 
 .contact-1 .contact-info {
   margin-top: 40px;
   padding: 0;
-  list-style: none;
-}
-
-.contact-1 .contact-info span {
-  margin-right: 7px;
-  color: #1abc9c;
-  padding-right: 5px;
-}
-
-.contact-1 .contact-info li {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 15px;
-  font-weight: 700;
-}
+  list-style: none; }
+  .contact-1 .contact-info span {
+    margin-right: 7px;
+    color: #1abc9c;
+    padding-right: 5px; }
+  .contact-1 .contact-info li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 700; }
 
 #map {
   width: 100%;
-  height: 350px;
-}
+  height: 350px; }
 
 #message {
   margin-bottom: 20px;
-  padding: 0;
-}
+  padding: 0; }
 
 .error_message {
   display: block;
@@ -37,55 +29,41 @@
   padding: 10px 0;
   color: #8a1f11;
   border: 2px solid #fbc2c4;
-  border-radius: 6px;
-}
+  border-radius: 6px; }
 
 #contact span.required {
   font-size: 13px;
-  color: #ff0000;
-}
+  color: #ff0000; }
 
 .contact-map-top .form-container {
-  margin-top: 60px;
-}
+  margin-top: 60px; }
 
 .contact-map-top .contact-info {
   margin-top: 40px;
   padding: 0;
-  list-style: none;
-}
-
-.contact-map-top .contact-info span {
-  margin-right: 7px;
-  color: #1abc9c;
-  padding-right: 5px;
-}
-
-.contact-map-top .contact-info li {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 15px;
-  font-weight: 700;
-  color: #2e2e2e;
-}
-
-.contact-map-top .contact-info li a {
-  color: #2e2e2e;
-}
-
-.contact-map-top .contact-info li a:hover {
-  color: #1abc9c;
-}
+  list-style: none; }
+  .contact-map-top .contact-info span {
+    margin-right: 7px;
+    color: #1abc9c;
+    padding-right: 5px; }
+  .contact-map-top .contact-info li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #2e2e2e; }
+    .contact-map-top .contact-info li a {
+      color: #2e2e2e; }
+      .contact-map-top .contact-info li a:hover {
+        color: #1abc9c; }
 
 #map {
   width: 100%;
-  height: 350px;
-}
+  height: 350px; }
 
 #message {
   margin-bottom: 20px;
-  padding: 0;
-}
+  padding: 0; }
 
 .error_message {
   display: block;
@@ -93,26 +71,21 @@
   padding: 10px 0;
   color: #8a1f11;
   border: 2px solid #fbc2c4;
-  border-radius: 6px;
-}
+  border-radius: 6px; }
 
 #contact span.required {
   font-size: 13px;
-  color: #ff0000;
-}
+  color: #ff0000; }
 
 .contact-simple h2 {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 .contact-simple .map-img {
-  margin-top: 40px;
-}
+  margin-top: 40px; }
 
 #message {
   margin-bottom: 20px;
-  padding: 0;
-}
+  padding: 0; }
 
 .error_message {
   display: block;
@@ -120,10 +93,8 @@
   padding: 10px 0 10px 15px;
   color: #8a1f11;
   border: 2px solid #fbc2c4;
-  border-radius: 6px;
-}
+  border-radius: 6px; }
 
 #contact span.required {
   font-size: 13px;
-  color: #ff0000;
-}
+  color: #ff0000; }

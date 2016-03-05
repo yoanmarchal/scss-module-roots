@@ -1,12 +1,7 @@
 .heading-left .underlined-title {
   padding-bottom: 0;
-  text-align: left;
-}
-
-.heading-left .underlined-title hr {
-  float: left;
-}
-
-.heading-left .underlined-title h2 {
-  clear: left;
-}
+  text-align: left; }
+  .heading-left .underlined-title hr {
+    float: left; }
+  .heading-left .underlined-title h2 {
+    clear: left; }

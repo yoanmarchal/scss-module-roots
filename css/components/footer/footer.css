@@ -1,160 +1,104 @@
 .footer-full {
   padding-top: 60px;
-  padding-bottom: 20px;
-}
-
-.footer-full h3 {
-  color: inherit;
-}
-
-.footer-full h4 {
-  color: inherit;
-  margin-bottom: 20px;
-}
-
-.footer-full .lead {
-  color: inherit;
-}
-
-.footer-full li {
-  color: inherit;
-}
-
-.footer-full li:first-child {
-  border-top: none;
-  padding-top: 1px;
-}
-
-.footer-full .brand-img {
-  width: 200px;
-  margin-bottom: 30px;
-}
-
-.footer-full ul {
-  list-style-type: none;
-  margin: 0 0 26px;
-  padding: 0;
-}
-
-.footer-full ul li {
-  border-top: 1px solid inherit;
-  line-height: 19px;
-  padding: 6px 0;
-}
+  padding-bottom: 20px; }
+  .footer-full h3 {
+    color: inherit; }
+  .footer-full h4 {
+    color: inherit;
+    margin-bottom: 20px; }
+  .footer-full .lead {
+    color: inherit; }
+  .footer-full li {
+    color: inherit; }
+    .footer-full li:first-child {
+      border-top: none;
+      padding-top: 1px; }
+  .footer-full .brand-img {
+    width: 200px;
+    margin-bottom: 30px; }
+  .footer-full ul {
+    list-style-type: none;
+    margin: 0 0 26px;
+    padding: 0; }
+    .footer-full ul li {
+      border-top: 1px solid inherit;
+      line-height: 19px;
+      padding: 6px 0; }
 
 .footer-minimal {
   padding-top: 40px;
-  padding-bottom: 30px;
-}
-
-.footer-minimal .brand-img {
-  margin: 0 auto;
-  width: 150px;
-}
+  padding-bottom: 30px; }
+  .footer-minimal .brand-img {
+    margin: 0 auto;
+    width: 150px; }
 
 .footer-plus-adress {
   padding: 10px 0;
-  text-align: center;
-}
-
-.footer-plus-adress .brand-img {
-  width: 180px;
-  margin: 0 auto;
-}
-
-.footer-plus-adress .social {
-  margin-top: 20px;
-}
-
-.footer-plus-adress .address-bold-line {
-  font-weight: 700;
-  margin: 0;
-  color: inherit;
-}
-
-.footer-plus-adress .address {
-  color: inherit;
-}
-
-.footer-plus-adress .footer-text {
-  border-top: 1px solid;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.footer-plus-adress .footer-text p {
-  padding-top: 15px;
-}
-
-@media only screen and (min-width: 768px) {
-  .footer-plus-adress {
-    text-align: left;
-  }
+  text-align: center; }
   .footer-plus-adress .brand-img {
+    width: 180px;
+    margin: 0 auto; }
+  .footer-plus-adress .social {
+    margin-top: 20px; }
+  .footer-plus-adress .address-bold-line {
+    font-weight: 700;
     margin: 0;
-  }
-}
+    color: inherit; }
+  .footer-plus-adress .address {
+    color: inherit; }
+  .footer-plus-adress .footer-text {
+    border-top: 1px solid;
+    text-align: center;
+    margin-top: 10px; }
+    .footer-plus-adress .footer-text p {
+      padding-top: 15px; }
+  @media only screen and (min-width: 768px) {
+    .footer-plus-adress {
+      text-align: left; }
+      .footer-plus-adress .brand-img {
+        margin: 0; } }
 
 .copyright-bar {
   height: 70px;
   padding-top: 20px;
   position: relative;
-  bottom: 0;
-}
-
-.copyright-bar p {
-  font-weight: 700;
-  margin: 0;
-}
+  bottom: 0; }
+  .copyright-bar p {
+    font-weight: 700;
+    margin: 0; }
 
 .copyright-bar-2 {
   height: 80px;
   padding-top: 28px;
   position: relative;
-  bottom: 0;
-}
-
-.copyright-bar-2 p {
-  font-weight: 700;
-  margin: 0;
-}
+  bottom: 0; }
+  .copyright-bar-2 p {
+    font-weight: 700;
+    margin: 0; }
 
 .footer-clean {
   padding-top: 60px;
   padding-bottom: 40px;
-  text-align: center;
-}
-
-.footer-clean h2 {
-  color: inherit;
-}
-
-.footer-clean .footer-form {
-  margin-top: 40px;
-}
-
-.footer-clean input[type=text] {
-  border: solid 1px;
-  padding: 20px;
-  width: 30%;
-  color: inherit;
-}
-
-.footer-clean input[type=submit] {
-  background: rgba(0, 0, 0, 0.2);
-  border: solid 1px;
-  padding: 20px;
-  color: inherit;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.footer-clean input[type=submit]:hover {
-  background: rgba(0, 0, 0, 0.3);
-  border: solid 1px;
-  color: inherit;
-}
-
-.footer-clean .social {
-  margin-top: 30px;
-}
+  text-align: center; }
+  .footer-clean h2 {
+    color: inherit; }
+  .footer-clean .footer-form {
+    margin-top: 40px; }
+  .footer-clean input[type=text] {
+    border: solid 1px;
+    padding: 20px;
+    width: 30%;
+    color: inherit; }
+  .footer-clean input[type=submit] {
+    background: rgba(0, 0, 0, 0.2);
+    border: solid 1px;
+    padding: 20px;
+    color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    .footer-clean input[type=submit]:hover {
+      background: rgba(0, 0, 0, 0.3);
+      border: solid 1px;
+      color: inherit; }
+  .footer-clean .social {
+    margin-top: 30px; }

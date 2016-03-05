@@ -1,95 +1,66 @@
 .shop-single .product-image {
   position: relative;
   width: 100%;
-  overflow: hidden;
-}
-
-.shop-single .product-image img {
-  display: block;
-  width: 100%;
-}
-
-.shop-single .product-image > a {
-  display: block;
-  width: 100%;
-}
-
-.shop-single .product-image > a:nth-of-type(2) {
-  opacity: 0;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-}
-
-.shop-single .product-image .slide a {
-  display: block;
-  width: 100%;
-}
-
-.shop-single .product-image:hover > a:nth-of-type(2) {
-  opacity: 1;
-  z-index: 2;
-}
+  overflow: hidden; }
+  .shop-single .product-image img {
+    display: block;
+    width: 100%; }
+  .shop-single .product-image > a {
+    display: block;
+    width: 100%; }
+    .shop-single .product-image > a:nth-of-type(2) {
+      opacity: 0;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0; }
+  .shop-single .product-image .slide a {
+    display: block;
+    width: 100%; }
+  .shop-single .product-image:hover > a:nth-of-type(2) {
+    opacity: 1;
+    z-index: 2; }
 
 .shop-single .product-desc h1 {
   margin-top: 0;
   font-size: 32px;
-  font-weight: 400;
-}
+  font-weight: 400; }
 
 .shop-single .product-desc h4 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
-  text-decoration: none;
-}
-
-.shop-single .product-desc h4 del {
-  font-weight: 400;
-  font-size: 80%;
-}
+  text-decoration: none; }
+  .shop-single .product-desc h4 del {
+    font-weight: 400;
+    font-size: 80%; }
 
 .shop-single .product-desc .product-rating {
-  margin-bottom: 20px;
-}
-
-.shop-single .product-desc .product-rating span {
-  margin-right: 10px;
-}
-
-.shop-single .product-desc .product-rating .fa {
-  font-size: 18px;
-}
+  margin-bottom: 20px; }
+  .shop-single .product-desc .product-rating span {
+    margin-right: 10px; }
+  .shop-single .product-desc .product-rating .fa {
+    font-size: 18px; }
 
 .shop-single .product-desc .input-group {
-  margin-right: 10px;
-}
-
-.shop-single .product-desc .input-group .form-control {
-  width: 50px;
-}
+  margin-right: 10px; }
+  .shop-single .product-desc .input-group .form-control {
+    width: 50px; }
 
 .shop-single .review .product-rating {
-  clear: left;
-}
-
-.shop-single .review .product-rating .fa {
-  font-size: 18px;
-}
+  clear: left; }
+  .shop-single .review .product-rating .fa {
+    font-size: 18px; }
 
 .shop-single .review h4 {
-  float: left;
-}
+  float: left; }
 
 .shop-single .review h5 {
   float: right;
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .shop-single .more-info-tabs {
-  margin: 50px 0;
-}
+  margin: 50px 0; }
 
 .shop-single .ribbon {
   position: absolute;
@@ -98,107 +69,71 @@
   width: 82px;
   height: 82px;
   overflow: hidden;
-  z-index: 10;
-}
+  z-index: 10; }
 
 .shop-single .sidebar .widget {
   margin-top: 40px;
   padding-bottom: 20px;
-  border-bottom: 1px solid;
-}
-
-.shop-single .sidebar .widget:nth-of-type(1) {
-  margin-top: 0;
-}
-
-.shop-single .sidebar .widget:nth-last-child(1) {
-  border-bottom: none;
-}
-
-.shop-single .sidebar .widget h4 {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
+  border-bottom: 1px solid; }
+  .shop-single .sidebar .widget:nth-of-type(1) {
+    margin-top: 0; }
+  .shop-single .sidebar .widget:nth-last-child(1) {
+    border-bottom: none; }
+  .shop-single .sidebar .widget h4 {
+    margin-top: 0;
+    margin-bottom: 20px; }
 
 .shop-single .sidebar .nav-pills > li {
-  float: left;
-}
-
-.shop-single .sidebar .nav-pills > li > a {
-  border-radius: 4px;
-  font-weight: 600;
-}
-
-.shop-single .sidebar .nav-pills > li + li {
-  margin-left: 2px;
-}
+  float: left; }
+  .shop-single .sidebar .nav-pills > li > a {
+    border-radius: 4px;
+    font-weight: 600; }
+  .shop-single .sidebar .nav-pills > li + li {
+    margin-left: 2px; }
 
 .shop-single .sidebar .nav-stacked > li {
-  float: none;
-}
-
-.shop-single .sidebar .nav-stacked > li + li {
-  margin-top: 2px;
-  margin-left: 0;
-}
+  float: none; }
+  .shop-single .sidebar .nav-stacked > li + li {
+    margin-top: 2px;
+    margin-left: 0; }
 
 .shop-single .sml-item {
   clear: left;
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 1px dashed;
-}
-
-.shop-single .sml-item .entry-image {
-  float: left;
-  margin: 0 15px 0 0;
-  text-align: center;
-  width: 48px;
-  height: 48px;
-}
-
-.shop-single .sml-item .entry-image a {
-  width: 48px;
-  height: 48px;
-}
-
-.shop-single .sml-item .entry-image a i {
-  font-size: 28px;
-  line-height: 48px;
-}
-
-.shop-single .sml-item .entry-image img {
-  width: 48px;
-  height: 48px;
-}
-
-.shop-single .sml-item .entry-image i {
-  width: 48px;
-  height: 48px;
-}
-
-.shop-single .sml-item h4 {
-  margin: 0 0 10px 0;
-  font-size: 18px;
-}
-
-.shop-single .sml-item h5 {
-  float: left;
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 20px;
-  text-decoration: none;
-}
-
-.shop-single .sml-item .product-rating {
-  float: right;
-}
-
-.shop-single .sml-item .product-rating .fa {
-  font-size: 14px;
-}
+  border-top: 1px dashed; }
+  .shop-single .sml-item .entry-image {
+    float: left;
+    margin: 0 15px 0 0;
+    text-align: center;
+    width: 48px;
+    height: 48px; }
+    .shop-single .sml-item .entry-image a {
+      width: 48px;
+      height: 48px; }
+      .shop-single .sml-item .entry-image a i {
+        font-size: 28px;
+        line-height: 48px; }
+    .shop-single .sml-item .entry-image img {
+      width: 48px;
+      height: 48px; }
+    .shop-single .sml-item .entry-image i {
+      width: 48px;
+      height: 48px; }
+  .shop-single .sml-item h4 {
+    margin: 0 0 10px 0;
+    font-size: 18px; }
+  .shop-single .sml-item h5 {
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-decoration: none; }
+  .shop-single .sml-item .product-rating {
+    float: right; }
+    .shop-single .sml-item .product-rating .fa {
+      font-size: 14px; }
 
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .shop-single .product-image > a {
-  transition: all .5s ease;
-}
+  transition: all .5s ease; }

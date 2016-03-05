@@ -1,12 +1,7 @@
 .banner {
-  background-size: cover;
-}
-
-.banner .container {
-  margin-top: 380px;
-}
-
-.banner h1 {
-  text-transform: uppercase;
-  font-weight: 300;
-}
+  background-size: cover; }
+  .banner .container {
+    margin-top: 380px; }
+  .banner h1 {
+    text-transform: uppercase;
+    font-weight: 300; }
