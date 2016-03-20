@@ -83,6 +83,6 @@ $color-list: (
 @each $label, $color in $color-list {
   .bg-#{$label}{
     background-color: $color;
-    color: invert($color);
+    color: contrast-color($color);
   };
 }
