@@ -76,22 +76,22 @@
   top: 0.5em;
   color: transparent;
 }
-.panel-title > a span:after {
+.panel-title > a span::after {
   font-family: "fontawesome";
   content: "\f077";
   position: absolute;
   top: 0;
   right: 0;
 }
-.text-right .panel-title > a span:after {
+.text-right .panel-title > a span::after {
   left: 0;
   right: auto;
 }
-.text-center .panel-title > a span:after {
+.text-center .panel-title > a span::after {
   top: -.75em;
   left: 0;
   opacity: 0;
 }
-.panel-title > a.collapsed span:after {
+.panel-title > a.collapsed span::after {
   content: "\f078";
 }
