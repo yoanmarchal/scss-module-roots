@@ -1,0 +1,97 @@
+/*	ACCORDION / TOGGLE */
+.panel-group {
+  margin-bottom: 0;
+}
+.panel-group + .panel-group {
+  margin-top: 20px;
+}
+.panel-group {
+  .panel {
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    box-shadow: none;
+  }
+  .panel + .panel {
+    margin-top: 10px;
+  }
+  panel-heading + .panel-collapse .panel-body {
+    border-top-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.panel-body {
+  padding: 25px;
+}
+.panel-heading {
+  background-color: inherit !important;
+  color: inherit !important;
+  padding: 0;
+  border-color: inherit !important;
+}
+.panel-title {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.panel-title > a {
+  color: #fff;
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+.panel-title > a.collapsed {
+  background: #f5f5f5;
+}
+.panel-title > a.collapsed,
+.panel-title > a.collapsed span {
+  color: inherit;
+}
+.panel-title > a,
+.panel-title > a:hover {
+  background: inherit;
+  color: #fff;
+}
+.panel-title > a span {
+  display: block;
+  position: relative;
+  top: 0;
+  color: #fff;
+  padding-right: 25px;
+}
+.text-right .panel-title > a span {
+  padding-left: 25px;
+  padding-right: 0;
+}
+.text-center .panel-title > a span {
+  padding-left: 0;
+  padding-right: 0;
+}
+.panel-title > a:hover span {
+  color: inherit;
+}
+.text-center .panel-title > a:hover span {
+  top: 0.5em;
+  color: transparent;
+}
+.panel-title > a span::after {
+  font-family: "fontawesome";
+  content: "\f077";
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.text-right .panel-title > a span::after {
+  left: 0;
+  right: auto;
+}
+.text-center .panel-title > a span::after {
+  top: -.75em;
+  left: 0;
+  opacity: 0;
+}
+.panel-title > a.collapsed span::after {
+  content: "\f078";
+}
