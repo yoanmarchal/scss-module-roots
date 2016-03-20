@@ -551,7 +551,7 @@ fieldset[disabled] .form-control {
 	margin-top: 10px;
 }
 .panel-group .panel-heading + .panel-collapse .panel-body {
-	border-top-color: #E6E9ED;
+	border-top-color: rgba(0,0,0,0.2);
 }
 .panel-body {
 	padding: 25px;
@@ -582,11 +582,11 @@ fieldset[disabled] .form-control {
 
 .panel-title > a.collapsed,
 .panel-title > a.collapsed span {
-	color: #16A085;
+	color: inherit;
 }
 .panel-title > a,
 .panel-title > a:hover {
-	background: #16A085;
+	background: inherit;
 	color: #fff;
 }
 
@@ -689,10 +689,10 @@ fieldset[disabled] .form-control {
 .pagination li a {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	color: #16A085;
+	color: inherit;
 	background: none;
 	margin: 0 3px;
-	border: 1px solid #16A085;
+	border: 1px solid inherit;
 	padding: 5px 12px;
 }
 
@@ -700,7 +700,7 @@ fieldset[disabled] .form-control {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #16A085;
+  color: inherit;
 }
 
 .pagination > .active > a,
@@ -710,7 +710,7 @@ fieldset[disabled] .form-control {
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
   background-color: #1ABC9C;
-  border-color: #16A085;
+  border-color: inherit;
 }
 
 .pagination > .disabled > span,
@@ -741,9 +741,9 @@ fieldset[disabled] .form-control {
 /* PAGER */
 .pager li > a,
 .pager li > span {
-	border: 1px solid #16A085;
+	border: 1px solid inherit;
 	border-radius: 0;
-	color: #16A085;
+	color: inherit;
 	font-size: 14px;
 	min-width: 160px;
 }
