@@ -1,4 +1,5 @@
 /*	ACCORDION / TOGGLE */
+
 .panel-group {
   margin-bottom: 0;
 }
@@ -16,7 +17,7 @@
   .panel + .panel {
     margin-top: 10px;
   }
-  panel-heading + .panel-collapse .panel-body {
+  .panel-heading + .panel-collapse .panel-body {
     border-top-color: rgba(0, 0, 0, 0.2);
   }
 }
