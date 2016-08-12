@@ -5,6 +5,6 @@ $color_niagara_approx: #16a085;
     }
     .fa {
         font-size: 32px;
-        color: $color_niagara_approx;
+        color: currentColor;
     }
 }
