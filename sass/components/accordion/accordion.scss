@@ -8,7 +8,7 @@
 }
 .panel-group {
   .panel {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-bottom-width: 2px;
     border-radius: 3px;
@@ -38,7 +38,7 @@
   text-transform: uppercase;
 }
 .panel-title > a {
-  color: #fff;
+  color: currentColor;;
   display: block;
   padding: 15px 25px;
   text-decoration: none;
@@ -53,13 +53,13 @@
 .panel-title > a,
 .panel-title > a:hover {
   background: inherit;
-  color: #fff;
+  color: currentColor;
 }
 .panel-title > a span {
   display: block;
   position: relative;
   top: 0;
-  color: #fff;
+  color: currentColor;
   padding-right: 25px;
 }
 .text-right .panel-title > a span {
