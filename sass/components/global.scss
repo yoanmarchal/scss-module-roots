@@ -498,6 +498,7 @@ fieldset[disabled] .form-control {
 /* TABS */
 .nav-tabs {
   margin: 0 auto;
+  border-bottom: 1px solid currentColor;
 }
 .nav-tabs > li {
   z-index: 2;
@@ -510,9 +511,9 @@ fieldset[disabled] .form-control {
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
-  color: #737c85;
+  color: currentColor;
   border-radius: 0;
-  border: none !important;
+  border: none;
   border-bottom: 4px solid currentColor;
   color: currentColor;
 }
