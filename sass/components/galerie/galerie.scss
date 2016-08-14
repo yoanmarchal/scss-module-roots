@@ -46,7 +46,7 @@ $radius: 2px;
             text-transform: uppercase;
             font-weight: 700;
             font-size: 14px;
-            color: $link_color;
+            color: currentColor;
             &:hover {
                 color: $link_hover;
                 text-decoration: none;

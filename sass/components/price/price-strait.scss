@@ -12,7 +12,8 @@ $color_loblolly_approx: #bcc7d1;
 		margin: 0 auto 40px auto;
 		border-radius: 4px;
 		header {
-			background: $color_pickled_bluewood_approx;
+			background: rgba(0,0,0,0.2);
+			box-shadow: 0px 1px 5px 0 rgba(0,0,0,0.3);
 			text-align: center;
 			padding: 50px;
 		}
@@ -50,9 +51,8 @@ $color_loblolly_approx: #bcc7d1;
 			}
 		}
 		.features {
-			background: $color_whisper_approx;
+			background: rgba(255,255,255,0.2);
 			padding: 25px 35px;
-			border: 1px solid $color_mystic_approx;
 			border-top: none;
 			border-bottom-width: 2px;
 			border-bottom-left-radius: 3px;
