@@ -1,8 +1,6 @@
 
 //colors
 $white: #ffffff;
-$color_pickled_bluewood_approx: #2c3e50;
-$color_monsoon_approx: #898989;
 $color_mercury_approx: #e6e6e6;
 $color_fuscous_gray_approx: #555555;
 $color_celeste_approx: #ccc;
@@ -10,7 +8,6 @@ $color_cornflower_blue_approx: #6082eb;
 $color_mountain_meadow_approx: #18b29d;
 $color_carnation_approx: #ff5e65;
 $color_rajah_approx: #ffb068;
-$color_nile_blue_approx: #233447;
 
 .pricing-table-1 {
   .price-block {
@@ -39,20 +36,20 @@ $color_nile_blue_approx: #233447;
         }
       }
       h3 {
-        background: $color_nile_blue_approx;
+        background: rgba(0,0,0,0.8);
       }
     }
   }
   h3 {
     text-transform: uppercase;
     padding: 20px 0;
-    background: $color_pickled_bluewood_approx;
+    background: rgba(0,0,0,0.4);
     margin: 0;
     border-radius: 6px 6px 0 0;
   }
   .price {
     display: inline-block;
-    background: $color_monsoon_approx;
+    background: rgba(0,0,0,0.6);
     width: 100%;
   }
   .price-figure {
@@ -82,7 +79,7 @@ $color_nile_blue_approx: #233447;
   }
   .price-footer {
     display: block;
-    background: $color_pickled_bluewood_approx;
+    background: rgba(0,0,0,0.5);
     border-radius: 0 0 6px 6px;
     margin-top: -5px;
     padding: 10px 0;
