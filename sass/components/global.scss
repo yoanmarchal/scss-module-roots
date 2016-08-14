@@ -514,13 +514,14 @@ fieldset[disabled] .form-control {
   color: currentColor;
   border-radius: 0;
   border: none;
-  border-bottom: 4px solid currentColor;
+  border-bottom: 4px solid transparent;
   color: currentColor;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   background-color: transparent;
+  border: 0;
   border-bottom: 4px solid currentColor;
 }
 .nav > li > a:hover,
