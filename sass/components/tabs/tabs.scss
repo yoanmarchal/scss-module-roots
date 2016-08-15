@@ -18,7 +18,7 @@
      border: none;
      //border-bottom: 4px solid transparent;
      color: currentColor;
-     & > a:hover {
+     &:hover {
       background-color: transparent;
      }
    }
