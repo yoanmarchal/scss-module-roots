@@ -107,12 +107,13 @@
                 > a {
                     border-radius: 4px;
                     font-weight: 600;
+                    color: currentColor;
                 }
                 + li {
                     margin-left: 2px;
                 }
                 &.active > a {
-
+                    background-color: rgba(0,0,0,0.2);
                     &:hover {
 
                     }
