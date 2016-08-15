@@ -70,8 +70,10 @@ $color_rajah_approx: #ffb068;
     margin: 0;
     li {
       padding: 8px 15px;
-      border-bottom: 1px solid ;
       list-style-type: none;
+      &:not(:last-child){
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      }
     }
   }
   .price-footer {
