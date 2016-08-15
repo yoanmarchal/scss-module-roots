@@ -13,8 +13,7 @@
   .call-to-action-countdown .countDown .countDown-wrap {
     width: 185px;
     margin: 0 15px 20px;
-    display: inline-block;
-    background: rgba(133, 214, 222, 0.1); }
+    display: inline-block; }
   .call-to-action-countdown .countDown .digits {
     display: block;
     margin-top: 34px;

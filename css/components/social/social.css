@@ -42,7 +42,8 @@
     .social li a {
       display: table;
       position: relative;
-      text-decoration: none; }
+      text-decoration: none;
+      color: currentColor; }
       .social li a i {
         text-align: center;
         display: table-cell;

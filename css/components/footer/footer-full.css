@@ -21,6 +21,8 @@
     margin: 0 0 26px;
     padding: 0; }
     .footer-full ul li {
-      border-top: 1px solid inherit;
+      border-top: 1px solid;
       line-height: 19px;
       padding: 6px 0; }
+      .footer-full ul li a {
+        color: currentColor; }

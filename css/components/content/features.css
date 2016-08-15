@@ -1,12 +1,12 @@
 .features .feature-box {
-  background: #723147;
+  background: rgba(255, 255, 255, 0.2);
   margin: 20px 0;
   padding: 35px 30px;
   text-align: center;
   border-radius: 4px;
   transition: all 0.4s ease-in 0s; }
   .features .feature-box:hover {
-    background-color: #31152b;
+    background-color: rgba(255, 255, 255, 0.3);
     transition: all 0.4s ease-in 0s; }
     .features .feature-box:hover .feature-icon {
       transition: all 0.4s ease-in 0s; }
@@ -19,10 +19,11 @@
     text-align: center;
     vertical-align: middle;
     position: relative;
-    margin: 0 auto 25px; }
+    margin: 0 auto 25px;
+    border: 2px solid; }
     .features .feature-box .icon span {
       line-height: 150px;
-      color: #723147;
+      color: currentColor;
       font-size: 55px; }
   .features .feature-box p {
     line-height: 25px;

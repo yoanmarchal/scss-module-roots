@@ -30,7 +30,7 @@
       text-transform: uppercase;
       font-weight: 700;
       font-size: 14px;
-      color: #2c3e50; }
+      color: currentColor; }
       .filter li a:hover {
         color: #3e5871;
         text-decoration: none; }
