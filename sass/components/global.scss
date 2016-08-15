@@ -495,51 +495,6 @@ fieldset[disabled] .form-control {
   color: #fff;
 }
 
-/* TABS */
-.nav-tabs {
-  margin: 0 auto;
-  border-bottom: 1px solid currentColor;
-}
-.nav-tabs > li {
-  z-index: 2;
-  float: none;
-  display: inline-block;
-}
-.nav-tabs > li > a {
-  padding: 16px 25px 12px;
-  font-size: 14px;
-  font-weight: 700;
-  font-style: normal;
-  text-transform: uppercase;
-  color: currentColor;
-  border-radius: 0;
-  border: none;
-  border-bottom: 4px solid transparent;
-  color: currentColor;
-}
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  background-color: transparent;
-  border: 0;
-  border-bottom: 4px solid currentColor;
-  color: currentColor;
-}
-.nav > li > a:hover,
-.nav > li > a:focus {
-  outline: 0;
-  background-color: transparent;
-  border-bottom: 4px solid currentColor;
-}
-.tab-content {
-  padding-left: 0;
-  padding-right: 0;
-  border: none;
-}
-.tab-pane {
-  padding: 50px 0;
-  border-bottom: 1px solid currentColor;
-}
 /* PAGINATION */
 .pagination li a {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
