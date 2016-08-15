@@ -48,13 +48,16 @@ $black_20: rgba(0, 0, 0, 0.2);
             h3 {
                 margin: 0 0 10px 0;
                 font-size: 22px;
+                a{
+                  color: currentColor;
+                }
             }
             h4 {
                 font-size: 18px;
                 font-weight: 600;
                 margin-bottom: 20px;
                 text-decoration: none;
-                color: $color_tundora_approx;
+                color: currentColor;
                 del {
                     font-weight: 400;
                     font-size: 80%;
