@@ -51,7 +51,7 @@ $color_pickled_bluewood_approx: #2c3e50;
 $white: #fff;
 $color_tree_poppy_approx: #f39c12;
 
-.team-2 {
+.team-min {
 	.team-wrapper {
 		padding-bottom: 25px;
 		.team-item {
@@ -89,7 +89,7 @@ $color_tree_poppy_approx: #f39c12;
 			.team-details {
 				text-align: center;
 				padding-top: 20px;
-				background-color: $white;
+				background-color: rgba(0,0,0,0.1);
 				border-top: 0;
 				overflow: hidden;
 			}
