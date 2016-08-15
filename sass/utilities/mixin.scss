@@ -1,3 +1,28 @@
+
+/* PADDING, MARGIN & ALIGNMENT */
+@mixin padtop($size) {
+  .pad#{$size} {
+    padding-top: $size+px;
+  }
+}
+@for $i from 5 through 90 {
+  @if ($i % 5) == 0 {
+    @include padtop($i + 5);
+  }
+}
+/* min height*/
+@mixin min-height($size) {
+  .min-height-#{$size+px} {
+    min-height: $size+px;
+  }
+}
+@for $i from 100 through 800 {
+  @if ($i % 100) == 0 {
+    @include min-height($i);
+  }
+}
+
+
 @mixin square($size) {
   width: $size;
   height: $size;
