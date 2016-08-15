@@ -31,6 +31,8 @@
     .shop-simple-list .product-desc h3 {
       margin: 0 0 10px 0;
       font-size: 22px; }
+      .shop-simple-list .product-desc h3 a {
+        color: currentColor; }
     .shop-simple-list .product-desc h4 {
       font-size: 18px;
       font-weight: 600;

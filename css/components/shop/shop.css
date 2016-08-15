@@ -43,12 +43,14 @@
   .shop-tab .product-desc h3 {
     margin: 0 0 10px 0;
     font-size: 22px; }
+    .shop-tab .product-desc h3 a {
+      color: currentColor; }
   .shop-tab .product-desc h4 {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
     text-decoration: none;
-    color: #454545; }
+    color: currentColor; }
     .shop-tab .product-desc h4 del {
       font-weight: 400;
       font-size: 80%;
@@ -125,6 +127,8 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .shop-tab .product-imag
     .shop-simple-list .product-desc h3 {
       margin: 0 0 10px 0;
       font-size: 22px; }
+      .shop-simple-list .product-desc h3 a {
+        color: currentColor; }
     .shop-simple-list .product-desc h4 {
       font-size: 18px;
       font-weight: 600;
@@ -196,11 +200,15 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .shop-tab .product-imag
   .shop-plus-sidebar .product-desc h3 {
     margin: 0 0 10px 0;
     font-size: 22px; }
+    .shop-plus-sidebar .product-desc h3 a {
+      color: currentColor; }
   .shop-plus-sidebar .product-desc h4 {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
     text-decoration: none; }
+    .shop-plus-sidebar .product-desc h4 a {
+      color: currentColor; }
     .shop-plus-sidebar .product-desc h4 del {
       font-weight: 400;
       font-size: 80%; }
@@ -222,14 +230,15 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .shop-tab .product-imag
     width: 50%;
     font-size: 13px;
     text-align: center;
-    border-right: 1px solid; }
+    border-right: 1px solid;
+    color: currentColor; }
     .shop-plus-sidebar .product-overlay a.gallery-zoom {
       border-right: 0; }
     .shop-plus-sidebar .product-overlay a i {
       position: relative;
       font-size: 18px; }
     .shop-plus-sidebar .product-overlay a:hover {
-      text-shadow: 1px 1px 1px; }
+      text-shadow: 1px 1px 0px; }
 
 .shop-plus-sidebar .advert {
   margin: 15px;
@@ -251,9 +260,12 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .shop-tab .product-imag
   float: left; }
   .shop-plus-sidebar .sidebar .nav-pills > li > a {
     border-radius: 4px;
-    font-weight: 600; }
+    font-weight: 600;
+    color: currentColor; }
   .shop-plus-sidebar .sidebar .nav-pills > li + li {
     margin-left: 2px; }
+  .shop-plus-sidebar .sidebar .nav-pills > li.active > a {
+    background-color: rgba(0, 0, 0, 0.2); }
 
 .shop-plus-sidebar .sidebar .nav-stacked > li {
   float: none; }
@@ -287,6 +299,8 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .shop-tab .product-imag
   .shop-plus-sidebar .sml-item h4 {
     margin: 0 0 10px 0;
     font-size: 18px; }
+    .shop-plus-sidebar .sml-item h4 a {
+      color: currentColor; }
   .shop-plus-sidebar .sml-item h5 {
     float: left;
     font-size: 16px;
@@ -391,7 +405,8 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .shop-plus-sidebar .pro
   float: left; }
   .shop-single .sidebar .nav-pills > li > a {
     border-radius: 4px;
-    font-weight: 600; }
+    font-weight: 600;
+    color: currentColor; }
   .shop-single .sidebar .nav-pills > li + li {
     margin-left: 2px; }
 

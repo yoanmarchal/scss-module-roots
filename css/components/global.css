@@ -95,6 +95,10 @@
   vertical-align: middle;
   float: none; }
 
+.video-wrapper iframe {
+  width: 100%;
+  height: auto; }
+
 /** TYPOGRAPHY **/
 h1,
 h2,

@@ -34,12 +34,14 @@
   .shop-tab .product-desc h3 {
     margin: 0 0 10px 0;
     font-size: 22px; }
+    .shop-tab .product-desc h3 a {
+      color: currentColor; }
   .shop-tab .product-desc h4 {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
     text-decoration: none;
-    color: #454545; }
+    color: currentColor; }
     .shop-tab .product-desc h4 del {
       font-weight: 400;
       font-size: 80%;
