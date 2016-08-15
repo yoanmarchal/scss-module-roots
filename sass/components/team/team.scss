@@ -7,7 +7,7 @@ $color_athens_gray_approx: #ecf0f1;
 	margin: 0 auto 20px auto;
 	overflow: hidden;
 	border-top: 0;
-	border: 1px solid ;
+	border: 1px solid rgba(0,0,0,0.1);
 	border-radius: 4px;
 	.member-name {
 		margin-top: 20px;
@@ -16,7 +16,7 @@ $color_athens_gray_approx: #ecf0f1;
 			content: "";
 			width: 100%;
 			height: 2px;
-			background-color: $color_athens_gray_approx;
+			background-color: currentColor;
 			display: block;
 			position: absolute;
 			bottom: -10px;
@@ -30,9 +30,11 @@ $color_athens_gray_approx: #ecf0f1;
 	}
 	.social-links {
 		padding-top: 10px;
-		> li a {
-			border-color: $color_athens_gray_approx;
-			border-radius: 3px;
+		> li {
+			a {
+				border-color: $color_athens_gray_approx;
+				border-radius: 3px;
+			}
 		}
 	}
 }
