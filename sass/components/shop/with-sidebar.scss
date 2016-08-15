@@ -48,6 +48,9 @@
                 font-weight: 600;
                 margin-bottom: 20px;
                 text-decoration: none;
+                a{
+                  color: currentColor;
+                }
                 del {
                     font-weight: 400;
                     font-size: 80%;
@@ -164,6 +167,9 @@
             h4 {
                 margin: 0 0 10px 0;
                 font-size: 18px;
+                a{
+                  color: currentColor;
+                }
             }
             h5 {
                 float: left;
