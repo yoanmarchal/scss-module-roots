@@ -76,6 +76,7 @@
                 font-size: 13px;
                 text-align: center;
                 border-right: 1px solid ;
+                color: currentColor;
                 &.gallery-zoom {
                     border-right: 0;
                 }
@@ -84,7 +85,7 @@
                     font-size: 18px;
                 }
                 &:hover {
-                    text-shadow: 1px 1px 1px ;
+                    text-shadow: 1px 1px 0px ;
                 }
             }
         }
