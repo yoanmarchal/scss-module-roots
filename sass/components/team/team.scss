@@ -32,8 +32,9 @@ $color_athens_gray_approx: #ecf0f1;
 		padding-top: 10px;
 		> li {
 			a {
-				border-color: currentColor;
-				border-radius: 3px;
+				border: 1px solid transparent;
+		    border-radius: 3px;
+		    overflow: hidden;
 			}
 		}
 	}
