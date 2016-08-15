@@ -18,6 +18,9 @@
      border: none;
      //border-bottom: 4px solid transparent;
      color: currentColor;
+     & > a:hover {
+      background-color: transparent;
+     }
    }
    & > a:focus {
       border-bottom: 4px solid currentColor;
