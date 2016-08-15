@@ -28,11 +28,11 @@ $color_athens_gray_approx: #ecf0f1;
 		font-family: Montserrat, sans-serif;
 		display: block;
 	}
-	.social-links {
+	.social {
 		padding-top: 10px;
 		> li {
 			a {
-				border-color: $color_athens_gray_approx;
+				border-color: currentColor;
 				border-radius: 3px;
 			}
 		}
