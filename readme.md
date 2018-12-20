@@ -1,5 +1,8 @@
 installation 
 ===================
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/yoanmarchal/scss-module-roots.svg)](https://greenkeeper.io/)
+
 With bower
 ```
 bower install --save scss-module-roots
