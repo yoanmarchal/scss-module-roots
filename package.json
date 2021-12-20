@@ -24,7 +24,7 @@
     "gulp-bower": "0.0.14",
     "gulp-notify": "^2.2.0",
     "gulp-ruby-sass": "^2.0.6",
-    "gulp-sass": "^3.0.0",
+    "gulp-sass": "^5.0.0",
     "snyk": "^1.231.0"
   },
   "snyk": true
